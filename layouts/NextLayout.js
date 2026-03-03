@@ -3,7 +3,7 @@ import { nextUtility } from "@/utility";
 import { Fragment, useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-const NextLayout = ({ header, footer, children, bgBlack, single }) => {
+const NextLayout = ({ footer, children, bgBlack, single }) => {
   useEffect(() => {
     console.log(bgBlack);
     if (bgBlack) {
@@ -22,7 +22,7 @@ const NextLayout = ({ header, footer, children, bgBlack, single }) => {
 
   return (
     <Fragment>
-      <Header header={header} single={single} />
+      <Header single={single} />
       {children}
       <Footer footer={footer} />
     </Fragment>

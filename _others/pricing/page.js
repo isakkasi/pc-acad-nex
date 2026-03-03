@@ -1,6 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Cta from "@/components/Cta";
-import Pricing, { Pricing2 } from "@/components/Pricing";
+import Pricing, { Pricing2 } from "@/components/home/Pricing";
 import { TestimonialSlider1 } from "@/components/TestimonialSlider";
 import NextLayout from "@/layouts/NextLayout";
 

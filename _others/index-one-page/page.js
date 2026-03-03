@@ -1,5 +1,5 @@
 import FunFactCounter from "@/components/FunFactCounter";
-import Pricing from "@/components/Pricing";
+import Pricing from "@/components/home/Pricing";
 import { TestimonialSlider1 } from "@/components/TestimonialSlider";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";

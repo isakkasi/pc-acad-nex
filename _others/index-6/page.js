@@ -1,5 +1,5 @@
 import ClientSlider from "@/components/ClientSlider";
-import { Pricing2 } from "@/components/Pricing";
+import { Pricing2 } from "@/components/home/Pricing";
 import {
   TestiContentSlider,
   TestiThumbSlider,
@@ -8,7 +8,7 @@ import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <NextLayout header={6} footer={6} single>
+    <NextLayout header={6} footer={6}>
       {/* Hero Section Start */}
       <section className="hero-section hero-6 pb-0">
         <div className="robot-shape-1 float-bob-y">
@@ -162,7 +162,7 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      <section className="service-section-6 fix section-padding" id="services">
+      <section className="service-section-6 fix section-padding">
         <div className="container">
           <div className="section-title text-center">
             <span className="sec-sub-text-2 wow fadeInUp">Popular Service</span>
@@ -377,7 +377,7 @@ const page = () => {
         </div>
       </section>
       {/* Feature Section Start */}
-      <section className="feature-section-5 fix section-padding" id="feature">
+      <section className="feature-section-5 fix section-padding">
         <div className="container">
           <div className="feature-wrapper">
             <div className="row g-4 align-items-center">

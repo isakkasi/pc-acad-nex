@@ -15,9 +15,9 @@ export const nextUtility = {
     });
   },
   scrollAnimation() {
-    if (typeof window !== "undefined") {
-      window.WOW = require("wowjs");
-    }
-    new WOW.WOW().init();
-  },
+  if (typeof window !== "undefined") {
+    const WOW = require("wow.js");
+    new WOW().init();
+  }
+},
 };
