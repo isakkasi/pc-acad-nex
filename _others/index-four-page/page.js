@@ -1,5 +1,5 @@
 import Faq from "@/components/Faq";
-import Services from "@/components/Services";
+import Courses from "@/components/courses/Courses";
 import {
   TestimonialSlider4,
   TestimonialSlider5,
@@ -172,7 +172,7 @@ const page = () => {
         </div>
       </section>
       {/* Service Section Start */}
-      <Services />
+      <Courses />
       {/* Working Process Section Start */}
       <WorkingProcess />
       {/* Testimonial Section Start */}

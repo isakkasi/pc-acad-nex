@@ -17,22 +17,22 @@ const Header = ({ single }) => {
         { id: 0, href: "/", title: "Home" },
         {
             id: 1,
-            href: "courses",
+            href: "/courses",
             title: "Courses",
             submenus: [
-                { id: "a", href: "incomming-courses", title: "Incomming Courses" },
-                { id: "b", href: "type-trainings", title: "Type Trainings" },
+                { id: "a", href: "/courses/incoming-courses", title: "Incoming Courses" },
+                { id: "b", href: "/courses/type-trainings", title: "Type Trainings" },
                 {
                     id: "c",
-                    href: "online-trainings",
+                    href: "/courses/online-trainings",
                     title: "Online Trainings",
                 },
-                { id: "d", href: "other-trainings", title: "Other Trainings" },
+                { id: "d", href: "/courses/other-trainings", title: "Other Trainings" },
             ],
         },
-        { id: 2, href: "about", title: "About" },
-        { id: 3, href: "contact", title: "Contact" },
-        { id: 4, href: "blog", title: "Blog" },
+        { id: 2, href: "/about", title: "About" },
+        { id: 3, href: "/contact", title: "Contact" },
+        { id: 4, href: "/blog", title: "Blog" },
     ];
 
     return (
