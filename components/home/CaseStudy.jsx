@@ -4,16 +4,16 @@ const CaseStudy = () => {
     return (
         <section className="case-study-section fix section-padding theme-bg">
         <div className="left-shape">
-          <img src="assets/img/case-study/left-shape.png" alt="shape-img" />
+          <img src="/assets/img/case-study/left-shape.png" alt="shape-img" />
         </div>
         <div className="right-shape">
-          <img src="assets/img/case-study/right-shape.png" alt="shape-img" />
+          <img src="/assets/img/case-study/right-shape.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="section-title-area">
             <div className="section-title">
               <span className="sub-content wow fadeInUp">
-                <img src="assets/img/bale.png" alt="img" />
+                <img src="/assets/img/bale.png" alt="img" />
                 Popular Case Study
               </span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
@@ -32,7 +32,7 @@ const CaseStudy = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/01.jpg" alt="img" />
+                  <img src="/assets/img/case-study/01.jpg" alt="img" />
                 </div>
                 <div className="content">
                   <p>IT Consulting</p>
@@ -53,7 +53,7 @@ const CaseStudy = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/02.jpg" alt="img" />
+                  <img src="/assets/img/case-study/02.jpg" alt="img" />
                 </div>
                 <div className="content">
                   <p>Machine Learning</p>
@@ -74,7 +74,7 @@ const CaseStudy = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/03.jpg" alt="img" />
+                  <img src="/assets/img/case-study/03.jpg" alt="img" />
                 </div>
                 <div className="content">
                   <p>Software Design</p>

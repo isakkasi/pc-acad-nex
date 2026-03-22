@@ -15,7 +15,7 @@ const RecentNews = () => {
                                   <div
                                     className="thumb bg-cover"
                                     style={{
-                                      backgroundImage: 'url("assets/img/news/pp1.png")',
+                                      backgroundImage: 'url("/assets/img/news/pp1.png")',
                                     }}
                                   />
                                   <div className="content">
@@ -33,7 +33,7 @@ const RecentNews = () => {
                                   <div
                                     className="thumb bg-cover"
                                     style={{
-                                      backgroundImage: 'url("assets/img/news/pp2.png")',
+                                      backgroundImage: 'url("/assets/img/news/pp2.png")',
                                     }}
                                   />
                                   <div className="content">

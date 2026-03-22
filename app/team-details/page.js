@@ -18,7 +18,7 @@ const page = () => {
                   <div
                     className="details-iamge bg-cover"
                     style={{
-                      backgroundImage: 'url("assets/img/team/details.jpg")',
+                      backgroundImage: 'url("/assets/img/team/details.jpg")',
                     }}
                   />
                 </div>

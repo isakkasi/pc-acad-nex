@@ -13,12 +13,12 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
                 className="grow-business-image wow fadeInUp"
                 data-wow-delay=".3s"
               >
-                <img src="assets/img/grow/02.jpg" alt="img" />
+                <img src="/assets/img/grow/02.jpg" alt="img" />
                 <div
                   className="grap-shape float-bob-x wow fadeInLeft"
                   data-wow-delay=".5s"
                 >
-                  <img src="assets/img/grow/grap.png" alt="shape-img" />
+                  <img src="/assets/img/grow/grap.png" alt="shape-img" />
                 </div>
               </div>
             </div>
@@ -26,7 +26,7 @@ const GrowBusiness = ({ paddingTop = 0 }) => {
               <div className="grow-business-content">
                 <div className="section-title">
                   <span className="sub-content wow fadeInUp">
-                    <img src="assets/img/bale.png" alt="img" />
+                    <img src="/assets/img/bale.png" alt="img" />
                     Grow your Business
                   </span>
                   <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -97,7 +97,7 @@ export const GrowBusiness2 = ({ bg }) => {
               <div className="grow-content">
                 <div className="section-title">
                   <span className="sub-content wow fadeInUp">
-                    <img src="assets/img/bale.png" alt="img" />
+                    <img src="/assets/img/bale.png" alt="img" />
                     Grow your Business
                   </span>
                   <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -125,7 +125,7 @@ export const GrowBusiness2 = ({ bg }) => {
                           Sed perspiciatis unde omnis natus error sit voluptate
                         </p>
                         <div className="vector-shape pt-3">
-                          <img src="assets/img/vector.png" alt="img" />
+                          <img src="/assets/img/vector.png" alt="img" />
                         </div>
                       </div>
                     </div>
@@ -142,7 +142,7 @@ export const GrowBusiness2 = ({ bg }) => {
                           Sed perspiciatis unde omnis natus error sit voluptate
                         </p>
                         <div className="vector-shape pt-3">
-                          <img src="assets/img/vector.png" alt="img" />
+                          <img src="/assets/img/vector.png" alt="img" />
                         </div>
                       </div>
                     </div>
@@ -153,16 +153,16 @@ export const GrowBusiness2 = ({ bg }) => {
             <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
               <div className="grow-image-items">
                 <div className="grow-shape float-bob-y">
-                  <img src="assets/img/grow/grow-shape.png" alt="shape-img" />
+                  <img src="/assets/img/grow/grow-shape.png" alt="shape-img" />
                 </div>
                 <div className="frame-shape">
-                  <img src="assets/img/grow/frame-shape.png" alt="shape-img" />
+                  <img src="/assets/img/grow/frame-shape.png" alt="shape-img" />
                 </div>
                 <div className="user-shape float-bob-x">
-                  <img src="assets/img/grow/user-shape.png" alt="shape-img" />
+                  <img src="/assets/img/grow/user-shape.png" alt="shape-img" />
                 </div>
                 <div className="grow-image">
-                  <img src="assets/img/grow/01.jpg" alt="img" />
+                  <img src="/assets/img/grow/01.jpg" alt="img" />
                 </div>
               </div>
             </div>

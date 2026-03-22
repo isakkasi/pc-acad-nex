@@ -13,7 +13,7 @@ const page = () => {
           <div className="section-title-area">
             <div className="section-title">
               <span className="sub-content wow fadeInUp">
-                <img src="assets/img/bale.png" alt="img" />
+                <img src="/assets/img/bale.png" alt="img" />
                 About The Team
               </span>
               <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -39,12 +39,12 @@ const page = () => {
           <div className="row">
             <div className="col-lg-8 wow fadeInUp" data-wow-delay=".3s">
               <div className="about-image">
-                <img src="assets/img/team/about-img-1.jpg" alt="img" />
+                <img src="/assets/img/team/about-img-1.jpg" alt="img" />
               </div>
             </div>
             <div className="col-lg-4 wow fadeInUp" data-wow-delay=".5s">
               <div className="about-image">
-                <img src="assets/img/team/about-img-2.jpg" alt="img" />
+                <img src="/assets/img/team/about-img-2.jpg" alt="img" />
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content">
-              <img src="assets/img/bale.png" alt="img" />
+              <img src="/assets/img/bale.png" alt="img" />
               Team Member
             </span>
             <h2>Meet Our Professional Team Members</h2>
@@ -66,7 +66,7 @@ const page = () => {
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/team/06.jpg" alt="team-img" />
+                  <img src="/assets/img/team/06.jpg" alt="team-img" />
                   <div className="icon-list">
                     <ul>
                       <li>
@@ -106,7 +106,7 @@ const page = () => {
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/team/07.jpg" alt="team-img" />
+                  <img src="/assets/img/team/07.jpg" alt="team-img" />
                   <div className="icon-list">
                     <ul>
                       <li>
@@ -146,7 +146,7 @@ const page = () => {
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/team/08.jpg" alt="team-img" />
+                  <img src="/assets/img/team/08.jpg" alt="team-img" />
                   <div className="icon-list">
                     <ul>
                       <li>
@@ -186,7 +186,7 @@ const page = () => {
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/team/09.jpg" alt="team-img" />
+                  <img src="/assets/img/team/09.jpg" alt="team-img" />
                   <div className="icon-list">
                     <ul>
                       <li>
@@ -226,7 +226,7 @@ const page = () => {
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/team/09.jpg" alt="team-img" />
+                  <img src="/assets/img/team/09.jpg" alt="team-img" />
                   <div className="icon-list">
                     <ul>
                       <li>
@@ -266,7 +266,7 @@ const page = () => {
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/team/11.jpg" alt="team-img" />
+                  <img src="/assets/img/team/11.jpg" alt="team-img" />
                   <div className="icon-list">
                     <ul>
                       <li>
@@ -306,7 +306,7 @@ const page = () => {
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/team/12.jpg" alt="team-img" />
+                  <img src="/assets/img/team/12.jpg" alt="team-img" />
                   <div className="icon-list">
                     <ul>
                       <li>
@@ -346,7 +346,7 @@ const page = () => {
             >
               <div className="team-card-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/team/13.jpg" alt="team-img" />
+                  <img src="/assets/img/team/13.jpg" alt="team-img" />
                   <div className="icon-list">
                     <ul>
                       <li>
@@ -388,7 +388,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center mb-0">
             <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
+              <img src="/assets/img/bale.png" alt="img" />
               Clients Feedback
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -399,7 +399,7 @@ const page = () => {
             <div className="row g-4">
               <div className="col-lg-3">
                 <div className="testimonial-image">
-                  <img src="assets/img/testimonial/testimonial.png" alt="img" />
+                  <img src="/assets/img/testimonial/testimonial.png" alt="img" />
                 </div>
               </div>
               <div className="col-lg-7 ps-lg-5">

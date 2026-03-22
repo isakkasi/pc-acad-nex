@@ -24,7 +24,7 @@ const MenuOne = ({menu}) => {
                   <div className="row g-4">
                     <div className="col-xl-2 homemenu">
                       <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-1.jpg" alt="img" />
+                        <img src="/assets/img/header/home-1.jpg" alt="img" />
                         <div className="demo-button">
                           <Link href="/" className="theme-btn">
                             Multi Page
@@ -40,7 +40,7 @@ const MenuOne = ({menu}) => {
                     </div>
                     <div className="col-xl-2  homemenu">
                       <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-2.jpg" alt="img" />
+                        <img src="/assets/img/header/home-2.jpg" alt="img" />
                         <div className="demo-button">
                           <Link href="index-2" className="theme-btn">
                             Multi Page
@@ -56,7 +56,7 @@ const MenuOne = ({menu}) => {
                     </div>
                     <div className="col-xl-2 homemenu">
                       <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-3.jpg" alt="img" />
+                        <img src="/assets/img/header/home-3.jpg" alt="img" />
                         <div className="demo-button">
                           <Link href="index-3" className="theme-btn">
                             Multi Page
@@ -72,7 +72,7 @@ const MenuOne = ({menu}) => {
                     </div>
                     <div className="col-xl-2 homemenu">
                       <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-4.jpg" alt="img" />
+                        <img src="/assets/img/header/home-4.jpg" alt="img" />
                         <div className="demo-button">
                           <Link href="index-4" className="theme-btn">
                             Multi Page
@@ -88,7 +88,7 @@ const MenuOne = ({menu}) => {
                     </div>
                     <div className="col-xl-2 homemenu">
                       <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-5.jpg" alt="img" />
+                        <img src="/assets/img/header/home-5.jpg" alt="img" />
                         <div className="demo-button">
                           <Link href="index-5" className="theme-btn">
                             Multi Page
@@ -104,7 +104,7 @@ const MenuOne = ({menu}) => {
                     </div>
                     <div className="col-xl-2 homemenu">
                       <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-6.jpg" alt="img" />
+                        <img src="/assets/img/header/home-6.jpg" alt="img" />
                         <div className="demo-button">
                           <Link href="index-6" className="theme-btn">
                             Multi Page

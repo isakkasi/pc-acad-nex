@@ -12,7 +12,7 @@ const ProjectSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="project-box-items">
               <div className="project-image">
-                <img src="assets/img/project/01.jpg" alt="img" />
+                <img src="/assets/img/project/01.jpg" alt="img" />
               </div>
               <div className="project-content">
                 <p>Product Sales</p>
@@ -27,7 +27,7 @@ const ProjectSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="project-box-items">
               <div className="project-image">
-                <img src="assets/img/project/02.jpg" alt="img" />
+                <img src="/assets/img/project/02.jpg" alt="img" />
               </div>
               <div className="project-content">
                 <p>Digital Marketing</p>
@@ -43,7 +43,7 @@ const ProjectSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="project-box-items">
               <div className="project-image">
-                <img src="assets/img/project/03.jpg" alt="img" />
+                <img src="/assets/img/project/03.jpg" alt="img" />
               </div>
               <div className="project-content">
                 <p>SEO Analysis</p>
@@ -58,7 +58,7 @@ const ProjectSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="project-box-items">
               <div className="project-image">
-                <img src="assets/img/project/04.jpg" alt="img" />
+                <img src="/assets/img/project/04.jpg" alt="img" />
               </div>
               <div className="project-content">
                 <p>Web Optimization</p>
@@ -74,7 +74,7 @@ const ProjectSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="project-box-items">
               <div className="project-image">
-                <img src="assets/img/project/01.jpg" alt="img" />
+                <img src="/assets/img/project/01.jpg" alt="img" />
               </div>
               <div className="project-content">
                 <p>Product Sales</p>
@@ -89,7 +89,7 @@ const ProjectSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="project-box-items">
               <div className="project-image">
-                <img src="assets/img/project/02.jpg" alt="img" />
+                <img src="/assets/img/project/02.jpg" alt="img" />
               </div>
               <div className="project-content">
                 <p>Digital Marketing</p>
@@ -105,7 +105,7 @@ const ProjectSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="project-box-items">
               <div className="project-image">
-                <img src="assets/img/project/03.jpg" alt="img" />
+                <img src="/assets/img/project/03.jpg" alt="img" />
               </div>
               <div className="project-content">
                 <p>SEO Analysis</p>
@@ -120,7 +120,7 @@ const ProjectSlider = () => {
           <SwiperSlide className="swiper-slide">
             <div className="project-box-items">
               <div className="project-image">
-                <img src="assets/img/project/04.jpg" alt="img" />
+                <img src="/assets/img/project/04.jpg" alt="img" />
               </div>
               <div className="project-content">
                 <p>Web Optimization</p>

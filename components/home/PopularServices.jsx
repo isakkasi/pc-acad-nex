@@ -6,7 +6,7 @@ const PopularServices = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
+              <img src="/assets/img/bale.png" alt="img" />
               Popular Services
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -29,9 +29,9 @@ const PopularServices = () => {
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/04.png" alt="service-img" />
+                  <img src="/assets/img/service/04.png" alt="service-img" />
                   <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
+                    <img src="/assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
                 <Link className="link-btn" href="service-details">
@@ -54,9 +54,9 @@ const PopularServices = () => {
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/05.png" alt="service-img" />
+                  <img src="/assets/img/service/05.png" alt="service-img" />
                   <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
+                    <img src="/assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
                 <Link className="link-btn" href="service-details">
@@ -79,9 +79,9 @@ const PopularServices = () => {
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/06.png" alt="service-img" />
+                  <img src="/assets/img/service/06.png" alt="service-img" />
                   <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
+                    <img src="/assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
                 <Link className="link-btn" href="service-details">
@@ -104,9 +104,9 @@ const PopularServices = () => {
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/07.png" alt="service-img" />
+                  <img src="/assets/img/service/07.png" alt="service-img" />
                   <div className="line-shape">
-                    <img src="assets/img/service/line.png" alt="shape-img" />
+                    <img src="/assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
                 <Link className="link-btn" href="service-details">

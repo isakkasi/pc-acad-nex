@@ -12,12 +12,12 @@ const page = () => {
             <div className="row g-4 justify-content-between">
               <div className="col-lg-8">
                 <div className="project-details-image">
-                  <img src="assets/img/project/details-1.jpg" alt="img" />
+                  <img src="/assets/img/project/details-1.jpg" alt="img" />
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="project-details-image">
-                  <img src="assets/img/project/details-2.jpg" alt="img" />
+                  <img src="/assets/img/project/details-2.jpg" alt="img" />
                 </div>
               </div>
               <div className="col-lg-7">
@@ -111,12 +111,12 @@ const page = () => {
               <div className="row g-4">
                 <div className="col-lg-6">
                   <div className="thumb">
-                    <img src="assets/img/project/details-3.jpg" alt="img" />
+                    <img src="/assets/img/project/details-3.jpg" alt="img" />
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="thumb">
-                    <img src="assets/img/project/details-4.jpg" alt="img" />
+                    <img src="/assets/img/project/details-4.jpg" alt="img" />
                   </div>
                 </div>
               </div>
@@ -166,7 +166,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content">
-              <img src="assets/img/bale.png" alt="img" />
+              <img src="/assets/img/bale.png" alt="img" />
               Work Gallery
             </span>
             <h2>Explore Featured Projects</h2>
@@ -177,7 +177,7 @@ const page = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/05.jpg" alt="img" />
+                      <img src="/assets/img/project/05.jpg" alt="img" />
                     </div>
                     <div className="project-content">
                       <p>Product Design</p>
@@ -193,7 +193,7 @@ const page = () => {
                 <div className="col-lg-6 col-md-6">
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/06.jpg" alt="img" />
+                      <img src="/assets/img/project/06.jpg" alt="img" />
                     </div>
                     <div className="project-content">
                       <p>Website Design</p>

@@ -6,7 +6,7 @@ const CtaVideo = () => {
             <div
                 className="cta-video-section fix bg-cover"
                 style={{
-                    backgroundImage: 'url("assets/img/cta/cta-video.jpg")',
+                    backgroundImage: 'url("/assets/img/cta/cta-video.jpg")',
                 }}
             >
                 <div className="container">

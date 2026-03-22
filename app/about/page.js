@@ -19,7 +19,7 @@ const page = () => {
                 <div className="about-content ms-0 style-about">
                   <div className="section-title">
                     {/* <span className="sub-content wow fadeInUp">
-                      <img src="assets/img/bale.png" alt="img" />
+                      <img src="/assets/img/bale.png" alt="img" />
                       About Plane Care Academy
                     </span> */}
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -70,7 +70,7 @@ const page = () => {
               </div>
               <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
                 <div className="about-image-3">
-                  <img src="assets/img/about/05.png" alt="img" style={{width: "80%"}}/>
+                  <img src="/assets/img/about/05.png" alt="img" style={{width: "80%"}}/>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ const page = () => {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6 wow  fadeInUp" data-wow-delay=".3s">
                 <div className="about-image-3">
-                  <img src="assets/img/about/06.png" alt="img" style={{width: "80%"}}/>
+                  <img src="/assets/img/about/06.png" alt="img" style={{width: "80%"}}/>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -166,10 +166,10 @@ const page = () => {
         <div className="container-fluid">
           <div className="brand-wrapper-2">
             <div className="radius-shape">
-              <img src="assets/img/brand/radius-left.png" alt="shape-img" />
+              <img src="/assets/img/brand/radius-left.png" alt="shape-img" />
             </div>
             <div className="radius-shape-2">
-              <img src="assets/img/brand/radius-right.png" alt="shape-img" />
+              <img src="/assets/img/brand/radius-right.png" alt="shape-img" />
             </div>
             <h5 className="wow fadeInUp" data-wow-delay=".3s">
               We Have <span>1563+</span> Global Partners. Explore Our Global
@@ -177,30 +177,30 @@ const page = () => {
             </h5>
             <div className="brand-items">
               <div className="brand-image wow fadeInUp" data-wow-delay=".2s">
-                <img src="assets/img/brand/linkedIn.png" alt="img" />
+                <img src="/assets/img/brand/linkedIn.png" alt="img" />
               </div>
               <div className="brand-image wow fadeInUp" data-wow-delay=".4s">
-                <img src="assets/img/brand/dropbox.png" alt="img" />
+                <img src="/assets/img/brand/dropbox.png" alt="img" />
               </div>
               <div className="brand-image wow fadeInUp" data-wow-delay=".6s">
-                <img src="assets/img/brand/trello.png" alt="img" />
+                <img src="/assets/img/brand/trello.png" alt="img" />
               </div>
               <div className="brand-image wow fadeInUp" data-wow-delay=".8s">
-                <img src="assets/img/brand/framer.png" alt="img" />
+                <img src="/assets/img/brand/framer.png" alt="img" />
               </div>
             </div>
             <div className="brand-items">
               <div className="brand-image wow fadeInUp" data-wow-delay=".2s">
-                <img src="assets/img/brand/grammarly.png" alt="img" />
+                <img src="/assets/img/brand/grammarly.png" alt="img" />
               </div>
               <div className="brand-image wow fadeInUp" data-wow-delay=".4s">
-                <img src="assets/img/brand/amazon.png" alt="img" />
+                <img src="/assets/img/brand/amazon.png" alt="img" />
               </div>
               <div className="brand-image wow fadeInUp" data-wow-delay=".6s">
-                <img src="assets/img/brand/outbrain.png" alt="img" />
+                <img src="/assets/img/brand/outbrain.png" alt="img" />
               </div>
               <div className="brand-image wow fadeInUp" data-wow-delay=".8s">
-                <img src="assets/img/brand/shopify.png" alt="img" />
+                <img src="/assets/img/brand/shopify.png" alt="img" />
               </div>
             </div>
           </div>
@@ -210,12 +210,12 @@ const page = () => {
       {/* Testimonial Section Start */}
       {/* <section className="testimonial-section-2 fix section-padding fix">
         <div className="bg-shape">
-          <img src="assets/img/testimonial/bg-shape.png" alt="shape-img" />
+          <img src="/assets/img/testimonial/bg-shape.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content">
-              <img src="assets/img/bale.png" alt="img" />
+              <img src="/assets/img/bale.png" alt="img" />
               Clients Feedback
             </span>
             <h2>We’ve 1250+ Global Clients Say Us</h2>

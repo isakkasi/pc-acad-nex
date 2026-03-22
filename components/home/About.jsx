@@ -18,12 +18,12 @@ const About = () => {
                                 <div className="row g-4 align-items-center">
                                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
                                         <div className="about-image">
-                                            <img src="assets/img/about/05.png" alt="about-img" />
+                                            <img src="/assets/img/about/05.png" alt="about-img" />
                                         </div>
                                     </div>
                                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".4s">
                                         <div className="about-image">
-                                            <img src="assets/img/about/06.png" alt="about-img" />
+                                            <img src="/assets/img/about/06.png" alt="about-img" />
                                         </div>
                                     </div>
                                 </div>
@@ -33,7 +33,7 @@ const About = () => {
                             <div className="about-content">
                                 <div className="section-title">
                                     <span className="sub-content wow fadeInUp">
-                                        <img src="assets/img/bale.png" alt="img" />
+                                        <img src="/assets/img/bale.png" alt="img" />
                                         About Plane Care Academy
                                     </span>
                                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -72,7 +72,7 @@ const About = () => {
                                         </Link>
                                     </div>
                                     <div className="author-image">
-                                        <img src="assets/img/about/author.jpg" alt="author-img" />
+                                        <img src="/assets/img/about/author.jpg" alt="author-img" />
                                         <div className="content">
                                             <h5>
                                                 Viktor Mihaylov / <span>CEO</span>

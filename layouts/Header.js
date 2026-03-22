@@ -43,7 +43,7 @@ const Header = ({ single }) => {
                         <div className="header-main">
                             <div className="sticky-logo">
                                 <Link href="/">
-                                    <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                                    <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
                                 </Link>
                             </div>
                             <div className="header-left">

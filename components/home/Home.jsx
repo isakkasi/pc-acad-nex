@@ -1,6 +1,6 @@
 import Link from "next/link";
 import GetInTouchWithUs from "./GetInTouchWithUs";
-import UpcomingCourses from "./UpcomingCourses";
+import IncomingCourses from "../courses/IncomingCourses";
 import { Fragment } from "react";
 import Pricing from "./Pricing";
 import About from "./About";
@@ -12,7 +12,7 @@ const Home = () => {
         <Fragment>
             <section
                 className="hero-section hero-1 bg-cover fix"
-                style={{ backgroundImage: 'url("assets/img/hero/01.jpg")' }}
+                style={{ backgroundImage: 'url("/assets/img/hero/01.jpg")' }}
             >
                 <div className="container">
                     <div className="row g-4 justify-content-between">
@@ -41,7 +41,7 @@ const Home = () => {
                                 className="hero-client d-flex align-items-center gap-4 mt-50 wow fadeInUp"
                                 data-wow-delay=".8s"
                             >
-                                <img src="assets/img/hero/client.png" alt="img" />
+                                <img src="/assets/img/hero/client.png" alt="img" />
                                 <p className="text-white">
                                     Trusted by 1M+ people <br />
                                     around the globe
@@ -54,7 +54,7 @@ const Home = () => {
                 </div>
             </section>
             <About />
-            <UpcomingCourses />
+            <IncomingCourses />
             <News />
         </Fragment>
     );

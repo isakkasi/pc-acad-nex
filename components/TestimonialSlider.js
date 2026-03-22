@@ -17,14 +17,14 @@ export const TestimonialSlider1 = () => {
             </p>
             <div className="author-items">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
+                <img src="/assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
                     Lucas J. Swe / <span>CO Founder</span>
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
+              <img src="/assets/img/testimonial/icon.png" alt="img" />
             </div>
           </div>
         </SwiperSlide>
@@ -37,14 +37,14 @@ export const TestimonialSlider1 = () => {
             </p>
             <div className="author-items">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
+                <img src="/assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
                     Lucas J. Swe / <span>CO Founder</span>
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
+              <img src="/assets/img/testimonial/icon.png" alt="img" />
             </div>
           </div>
         </SwiperSlide>
@@ -57,14 +57,14 @@ export const TestimonialSlider1 = () => {
             </p>
             <div className="author-items">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
+                <img src="/assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
                     Lucas J. Swe / <span>CO Founder</span>
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
+              <img src="/assets/img/testimonial/icon.png" alt="img" />
             </div>
           </div>
         </SwiperSlide>
@@ -77,14 +77,14 @@ export const TestimonialSlider1 = () => {
             </p>
             <div className="author-items">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
+                <img src="/assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
                     Lucas J. Swe / <span>CO Founder</span>
                   </h5>
                 </div>
               </div>
-              <img src="assets/img/testimonial/icon.png" alt="img" />
+              <img src="/assets/img/testimonial/icon.png" alt="img" />
             </div>
           </div>
         </SwiperSlide>
@@ -106,11 +106,11 @@ export const TestimonialSlider2 = ({ style = "style-1" }) => {
         <SwiperSlide className="swiper-slide">
           <div className={`testimonial-card-items ${style}`}>
             <div className="testimonial-image">
-              <img src="assets/img/testimonial/client-2.png" alt="img" />
+              <img src="/assets/img/testimonial/client-2.png" alt="img" />
             </div>
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
+                <img src="/assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
                     Michael M. Griffin <span>/CO Founder</span>
@@ -134,11 +134,11 @@ export const TestimonialSlider2 = ({ style = "style-1" }) => {
         <SwiperSlide className="swiper-slide">
           <div className={`testimonial-card-items ${style}`}>
             <div className="testimonial-image">
-              <img src="assets/img/testimonial/client-3.png" alt="img" />
+              <img src="/assets/img/testimonial/client-3.png" alt="img" />
             </div>
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
+                <img src="/assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
                     Robin T. Peckham<span>/ Developer</span>
@@ -162,11 +162,11 @@ export const TestimonialSlider2 = ({ style = "style-1" }) => {
         <SwiperSlide className="swiper-slide">
           <div className={`testimonial-card-items ${style}`}>
             <div className="testimonial-image">
-              <img src="assets/img/testimonial/client-2.png" alt="img" />
+              <img src="/assets/img/testimonial/client-2.png" alt="img" />
             </div>
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
+                <img src="/assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
                     Michael M. Griffin <span>/CO Founder</span>
@@ -190,11 +190,11 @@ export const TestimonialSlider2 = ({ style = "style-1" }) => {
         <SwiperSlide className="swiper-slide">
           <div className={`testimonial-card-items ${style}`}>
             <div className="testimonial-image">
-              <img src="assets/img/testimonial/client-3.png" alt="img" />
+              <img src="/assets/img/testimonial/client-3.png" alt="img" />
             </div>
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
+                <img src="/assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
                     Robin T. Peckham<span>/ Developer</span>
@@ -233,7 +233,7 @@ export const TestimonialSlider3 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
+              <img src="/assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
                   Michael M. Griffin / <span>CO Founder</span>
@@ -257,7 +257,7 @@ export const TestimonialSlider3 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
+              <img src="/assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
                   Michael M. Griffin / <span>CO Founder</span>
@@ -281,7 +281,7 @@ export const TestimonialSlider3 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
+              <img src="/assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
                   Michael M. Griffin / <span>CO Founder</span>
@@ -305,7 +305,7 @@ export const TestimonialSlider3 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
+              <img src="/assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
                   Michael M. Griffin / <span>CO Founder</span>
@@ -329,7 +329,7 @@ export const TestimonialSlider3 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
+              <img src="/assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
                   Michael M. Griffin / <span>CO Founder</span>
@@ -353,7 +353,7 @@ export const TestimonialSlider3 = () => {
         <SwiperSlide className="swiper-slide">
           <div className="testimonial-content">
             <div className="author-image">
-              <img src="assets/img/testimonial/client.png" alt="author-img" />
+              <img src="/assets/img/testimonial/client.png" alt="author-img" />
               <div className="content">
                 <h5>
                   Michael M. Griffin / <span>CO Founder</span>
@@ -393,7 +393,7 @@ export const TestimonialSlider4 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
+                <img src="/assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
                     Louis K. Peters <span>/CEO &amp; Founder</span>
@@ -419,7 +419,7 @@ export const TestimonialSlider4 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-4.png"
+                  src="/assets/img/testimonial/client-4.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -447,7 +447,7 @@ export const TestimonialSlider4 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-5.png"
+                  src="/assets/img/testimonial/client-5.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -475,7 +475,7 @@ export const TestimonialSlider4 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-6.png"
+                  src="/assets/img/testimonial/client-6.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -502,7 +502,7 @@ export const TestimonialSlider4 = () => {
           <div className="testimonial-box-items">
             <div className="testimonial-content">
               <div className="author-image">
-                <img src="assets/img/testimonial/client.png" alt="author-img" />
+                <img src="/assets/img/testimonial/client.png" alt="author-img" />
                 <div className="content">
                   <h5>
                     Louis K. Peters <span>/CEO &amp; Founder</span>
@@ -528,7 +528,7 @@ export const TestimonialSlider4 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-4.png"
+                  src="/assets/img/testimonial/client-4.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -556,7 +556,7 @@ export const TestimonialSlider4 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-5.png"
+                  src="/assets/img/testimonial/client-5.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -584,7 +584,7 @@ export const TestimonialSlider4 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-6.png"
+                  src="/assets/img/testimonial/client-6.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -624,7 +624,7 @@ export const TestimonialSlider5 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-7.png"
+                  src="/assets/img/testimonial/client-7.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -652,7 +652,7 @@ export const TestimonialSlider5 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-8.png"
+                  src="/assets/img/testimonial/client-8.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -680,7 +680,7 @@ export const TestimonialSlider5 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-9.png"
+                  src="/assets/img/testimonial/client-9.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -708,7 +708,7 @@ export const TestimonialSlider5 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-10.png"
+                  src="/assets/img/testimonial/client-10.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -736,7 +736,7 @@ export const TestimonialSlider5 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-7.png"
+                  src="/assets/img/testimonial/client-7.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -764,7 +764,7 @@ export const TestimonialSlider5 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-8.png"
+                  src="/assets/img/testimonial/client-8.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -792,7 +792,7 @@ export const TestimonialSlider5 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-9.png"
+                  src="/assets/img/testimonial/client-9.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -820,7 +820,7 @@ export const TestimonialSlider5 = () => {
             <div className="testimonial-content">
               <div className="author-image">
                 <img
-                  src="assets/img/testimonial/client-10.png"
+                  src="/assets/img/testimonial/client-10.png"
                   alt="author-img"
                 />
                 <div className="content">
@@ -859,7 +859,7 @@ export const TestiThumbSlider = () => {
           <div
             className="testi-thumb bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/home-6/testimonial/01.png")',
+              backgroundImage: 'url("/assets/img/home-6/testimonial/01.png")',
             }}
           />
         </SwiperSlide>
@@ -867,7 +867,7 @@ export const TestiThumbSlider = () => {
           <div
             className="testi-thumb bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/home-6/testimonial/02.png")',
+              backgroundImage: 'url("/assets/img/home-6/testimonial/02.png")',
             }}
           />
         </SwiperSlide>
@@ -875,7 +875,7 @@ export const TestiThumbSlider = () => {
           <div
             className="testi-thumb bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/home-6/testimonial/03.png")',
+              backgroundImage: 'url("/assets/img/home-6/testimonial/03.png")',
             }}
           />
         </SwiperSlide>
@@ -883,7 +883,7 @@ export const TestiThumbSlider = () => {
           <div
             className="testi-thumb bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/home-6/testimonial/04.png")',
+              backgroundImage: 'url("/assets/img/home-6/testimonial/04.png")',
             }}
           />
         </SwiperSlide>
@@ -891,7 +891,7 @@ export const TestiThumbSlider = () => {
           <div
             className="testi-thumb bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/home-6/testimonial/05.png")',
+              backgroundImage: 'url("/assets/img/home-6/testimonial/05.png")',
             }}
           />
         </SwiperSlide>
@@ -899,7 +899,7 @@ export const TestiThumbSlider = () => {
           <div
             className="testi-thumb bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/home-6/testimonial/01.png")',
+              backgroundImage: 'url("/assets/img/home-6/testimonial/01.png")',
             }}
           />
         </SwiperSlide>
@@ -907,7 +907,7 @@ export const TestiThumbSlider = () => {
           <div
             className="testi-thumb bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/home-6/testimonial/02.png")',
+              backgroundImage: 'url("/assets/img/home-6/testimonial/02.png")',
             }}
           />
         </SwiperSlide>
@@ -915,7 +915,7 @@ export const TestiThumbSlider = () => {
           <div
             className="testi-thumb bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/home-6/testimonial/03.png")',
+              backgroundImage: 'url("/assets/img/home-6/testimonial/03.png")',
             }}
           />
         </SwiperSlide>
@@ -923,7 +923,7 @@ export const TestiThumbSlider = () => {
           <div
             className="testi-thumb bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/home-6/testimonial/04.png")',
+              backgroundImage: 'url("/assets/img/home-6/testimonial/04.png")',
             }}
           />
         </SwiperSlide>
@@ -931,7 +931,7 @@ export const TestiThumbSlider = () => {
           <div
             className="testi-thumb bg-cover"
             style={{
-              backgroundImage: 'url("assets/img/home-6/testimonial/05.png")',
+              backgroundImage: 'url("/assets/img/home-6/testimonial/05.png")',
             }}
           />
         </SwiperSlide>

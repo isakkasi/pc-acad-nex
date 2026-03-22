@@ -20,7 +20,7 @@ const page = () => {
                 <div className="about-content ms-0">
                   <div className="section-title">
                     <span className="sub-content wow fadeInUp">
-                      <img src="assets/img/bale.png" alt="img" />
+                      <img src="/assets/img/bale.png" alt="img" />
                       Problem Solutions
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -63,7 +63,7 @@ const page = () => {
                       Trusted by 1M+ people <br />
                       around the globe
                     </h6>
-                    <img src="assets/img/about/face-mans.png" alt="img" />
+                    <img src="/assets/img/about/face-mans.png" alt="img" />
                     <h2>
                       <span className="count">
                         <Counter end={25} />
@@ -80,7 +80,7 @@ const page = () => {
                           data-wow-delay=".3s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/07.jpg" alt="img" />
+                            <img src="/assets/img/about/07.jpg" alt="img" />
                           </div>
                         </div>
                         <div
@@ -88,14 +88,14 @@ const page = () => {
                           data-wow-delay=".5s"
                         >
                           <div className="about-thumbs">
-                            <img src="assets/img/about/08.jpg" alt="img" />
+                            <img src="/assets/img/about/08.jpg" alt="img" />
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".7s">
                       <div className="about-thumbs">
-                        <img src="assets/img/about/09.jpg" alt="img" />
+                        <img src="/assets/img/about/09.jpg" alt="img" />
                       </div>
                     </div>
                   </div>
@@ -112,7 +112,7 @@ const page = () => {
             <div className="row align-items-center">
               <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
                 <div className="service-video-image">
-                  <img src="assets/img/service/service-video.jpg" alt="img" />
+                  <img src="/assets/img/service/service-video.jpg" alt="img" />
                   <div className="video-box">
                     <a
                       href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"

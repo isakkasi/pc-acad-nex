@@ -10,7 +10,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
+              <img src="/assets/img/bale.png" alt="img" />
               Work Gallery
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -26,7 +26,7 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/05.jpg" alt="img" />
+                      <img src="/assets/img/project/05.jpg" alt="img" />
                     </div>
                     <div className="project-content">
                       <p>Product Design</p>
@@ -45,7 +45,7 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/06.jpg" alt="img" />
+                      <img src="/assets/img/project/06.jpg" alt="img" />
                     </div>
                     <div className="project-content">
                       <p>Website Design</p>
@@ -64,7 +64,7 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/07.jpg" alt="img" />
+                      <img src="/assets/img/project/07.jpg" alt="img" />
                     </div>
                     <div className="project-content">
                       <p>Product Design</p>
@@ -82,7 +82,7 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/08.jpg" alt="img" />
+                      <img src="/assets/img/project/08.jpg" alt="img" />
                     </div>
                     <div className="project-content">
                       <p>Website Design</p>
@@ -100,7 +100,7 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/09.jpg" alt="img" />
+                      <img src="/assets/img/project/09.jpg" alt="img" />
                     </div>
                     <div className="project-content">
                       <p>Product Design</p>
@@ -118,7 +118,7 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/10.jpg" alt="img" />
+                      <img src="/assets/img/project/10.jpg" alt="img" />
                     </div>
                     <div className="project-content">
                       <p>Website Design</p>
@@ -136,7 +136,7 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/11.jpg" alt="img" />
+                      <img src="/assets/img/project/11.jpg" alt="img" />
                     </div>
                     <div className="project-content">
                       <p>Product Design</p>
@@ -154,7 +154,7 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/12.jpg" alt="img" />
+                      <img src="/assets/img/project/12.jpg" alt="img" />
                     </div>
                     <div className="project-content">
                       <p>Product Design</p>

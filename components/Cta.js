@@ -17,9 +17,9 @@ const Cta = ({ sectionPadding = false }) => {
                         </p>
                     </div>
                     <div className="thumb wow fadeInUp" data-wow-delay=".6s">
-                        <img src="assets/img/cta/cta-marketing.png" alt="img" />
+                        <img src="/assets/img/cta/cta-marketing.png" alt="img" />
                         <div className="circle-shape">
-                            <img src="assets/img/cta/circle-shape.png" alt="shape-img" />
+                            <img src="/assets/img/cta/circle-shape.png" alt="shape-img" />
                         </div>
                     </div>
                     <Link href="/contact" className="theme-btn bg-2 wow fadeInUp" data-wow-delay=".7s">

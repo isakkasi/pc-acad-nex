@@ -11,14 +11,14 @@ const Header1 = ({ single, menu }) => {
               <div className="sticky-logo">
                 <Link href="/">
                   <img
-                    src="assets/img/logo/white-logo.svg"
+                    src="//assets/img/logo/white-logo.svg"
                     alt="logo-img"
                     className="logo-1"
                   />
                 </Link>
                 <Link href="/">
                   <img
-                    src="assets/img/logo/black-logo.svg"
+                    src="//assets/img/logo/black-logo.svg"
                     alt="logo-img"
                     className="logo-2"
                   />
@@ -82,7 +82,7 @@ const Header2 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                  <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
                 </Link>
               </div>
               <div className="header-left">
@@ -138,7 +138,7 @@ const Header3 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                  <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
                 </Link>
               </div>
               <div className="header-left">
@@ -204,10 +204,10 @@ const Header5 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/" className="logo-1">
-                  <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+                  <img src="/assets/img/logo/white-logo.svg" alt="logo-img" />
                 </Link>
                 <Link href="/" className="logo-2">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                  <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
                 </Link>
               </div>
               <div className="header-left">
@@ -254,7 +254,7 @@ const Footer2 = () => {
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+                    <img src="/assets/img/logo/white-logo.svg" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="footer-content">
@@ -434,7 +434,7 @@ const Footer3 = () => {
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+                    <img src="/assets/img/logo/white-logo.svg" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="footer-content">
@@ -579,10 +579,10 @@ const Footer4 = () => {
   return (
     <footer className="footer-section footer-bg fix">
       <div className="color-shape">
-        <img src="assets/img/footer-color-shape.png" alt="shape-img" />
+        <img src="/assets/img/footer-color-shape.png" alt="shape-img" />
       </div>
       <div className="color-shape-2">
-        <img src="assets/img/footer-color-shape-2.png" alt="shape-img" />
+        <img src="/assets/img/footer-color-shape-2.png" alt="shape-img" />
       </div>
       <div className="container">
         <div className="footer-widgets-wrapper">
@@ -594,7 +594,7 @@ const Footer4 = () => {
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+                    <img src="/assets/img/logo/white-logo.svg" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="footer-content">
@@ -739,16 +739,16 @@ const Footer6 = () => {
   return (
     <footer className="footer-section footer-bg">
       <div className="robot-shape float-bob-y">
-        <img src="assets/img/home-6/robot-3.png" alt="shape-img" />
+        <img src="/assets/img/home-6/robot-3.png" alt="shape-img" />
       </div>
       <div className="robot-shape-2 float-bob-y">
-        <img src="assets/img/home-6/robot-4.png" alt="shape-img" />
+        <img src="/assets/img/home-6/robot-4.png" alt="shape-img" />
       </div>
       <div className="container">
         <div className="discussed-items">
           <div className="footer-logo wow fadeInUp" data-wow-delay=".3s">
             <Link href="/">
-              <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+              <img src="/assets/img/logo/white-logo.svg" alt="logo-img" />
             </Link>
           </div>
           <div className="discussed-content wow fadeInUp" data-wow-delay=".5s">
@@ -872,7 +872,7 @@ const Footer6 = () => {
                     <div
                       className="thumb bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/news/pp1.png")',
+                        backgroundImage: 'url("/assets/img/news/pp1.png")',
                       }}
                     />
                     <div className="content">
@@ -890,7 +890,7 @@ const Footer6 = () => {
                     <div
                       className="thumb bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/news/pp2.png")',
+                        backgroundImage: 'url("/assets/img/news/pp2.png")',
                       }}
                     />
                     <div className="content">

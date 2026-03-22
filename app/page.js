@@ -5,7 +5,7 @@ import Testimonial from "@/components/home/Testimonial";
 import Pricing from "@/components/home/Pricing";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
-import UpcomingCourses from "@/components/home/UpcomingCourses";
+import IncomingCourses from "@/components/courses/IncomingCourses";
 import About from "@/components/home/About";
 import PopularServices from "@/components/home/PopularServices";
 import Cta from "@/components/Cta";

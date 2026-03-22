@@ -6,7 +6,7 @@ const Pricing = () => {
       <div className="container">
         <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
-            <img src="assets/img/bale.png" alt="img" />
+            <img src="/assets/img/bale.png" alt="img" />
             Pricing Package
           </span>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -20,7 +20,7 @@ const Pricing = () => {
           >
             <div className="pricing-card-items">
               <div className="pricing-shape">
-                <img src="assets/img/pricing-shape.png" alt="shape-img" />
+                <img src="/assets/img/pricing-shape.png" alt="shape-img" />
               </div>
               <div className="pricing-header">
                 <h3>Regular Plan</h3>
@@ -52,7 +52,7 @@ const Pricing = () => {
           >
             <div className="pricing-card-items active">
               <div className="pricing-shape">
-                <img src="assets/img/pricing-shape-2.png" alt="shape-img" />
+                <img src="/assets/img/pricing-shape-2.png" alt="shape-img" />
               </div>
               <div className="pricing-header">
                 <h3>Business Plan</h3>
@@ -84,7 +84,7 @@ const Pricing = () => {
           >
             <div className="pricing-card-items">
               <div className="pricing-shape">
-                <img src="assets/img/pricing-shape.png" alt="shape-img" />
+                <img src="/assets/img/pricing-shape.png" alt="shape-img" />
               </div>
               <div className="pricing-header">
                 <h3>Professional Plan</h3>
@@ -163,7 +163,7 @@ export const Pricing2 = ({
                   </h6>
                 </div>
                 <div className="arrow-img">
-                  <img src="assets/img/arrow.png" alt="img" />
+                  <img src="/assets/img/arrow.png" alt="img" />
                 </div>
               </div>
               <ul className="price-list">
@@ -218,7 +218,7 @@ export const Pricing2 = ({
                   </h6>
                 </div>
                 <div className="arrow-img">
-                  <img src="assets/img/arrow-2.png" alt="img" />
+                  <img src="/assets/img/arrow-2.png" alt="img" />
                 </div>
               </div>
               <ul className="price-list">
@@ -273,7 +273,7 @@ export const Pricing2 = ({
                   </h6>
                 </div>
                 <div className="arrow-img">
-                  <img src="assets/img/arrow.png" alt="img" />
+                  <img src="/assets/img/arrow.png" alt="img" />
                 </div>
               </div>
               <ul className="price-list">

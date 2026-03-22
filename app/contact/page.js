@@ -13,7 +13,7 @@ const page = () => {
                 <div className="contact-content">
                   <div className="section-title">
                     {/* <span className="sub-content wow fadeInUp">
-                      <img src="assets/img/bale.png" alt="img" />
+                      <img src="/assets/img/bale.png" alt="img" />
                       Contact Us
                     </span> */}
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">

@@ -8,62 +8,62 @@ const ClientSlider = () => {
       <div className="swiper-wrapper">
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/linkedIn.png" alt="img" />
+            <img src="/assets/img/brand/linkedIn.png" alt="img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/dropbox.png" alt="img" />
+            <img src="/assets/img/brand/dropbox.png" alt="img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/trello.png" alt="img" />
+            <img src="/assets/img/brand/trello.png" alt="img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/framer.png" alt="img" />
+            <img src="/assets/img/brand/framer.png" alt="img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/shopify.png" alt="img" />
+            <img src="/assets/img/brand/shopify.png" alt="img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/grammarly.png" alt="img" />
+            <img src="/assets/img/brand/grammarly.png" alt="img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/linkedIn.png" alt="img" />
+            <img src="/assets/img/brand/linkedIn.png" alt="img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/dropbox.png" alt="img" />
+            <img src="/assets/img/brand/dropbox.png" alt="img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/trello.png" alt="img" />
+            <img src="/assets/img/brand/trello.png" alt="img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/framer.png" alt="img" />
+            <img src="/assets/img/brand/framer.png" alt="img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/shopify.png" alt="img" />
+            <img src="/assets/img/brand/shopify.png" alt="img" />
           </div>
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="brand-image">
-            <img src="assets/img/brand/grammarly.png" alt="img" />
+            <img src="/assets/img/brand/grammarly.png" alt="img" />
           </div>
         </SwiperSlide>
       </div>

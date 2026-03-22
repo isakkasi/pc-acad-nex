@@ -45,7 +45,7 @@ const Team = () => {
       <div className="container">
         <div className="section-title text-center">
           {/* <span className="sub-content wow fadeInUp">
-            <img src="assets/img/bale.png" alt="img" />
+            <img src="/assets/img/bale.png" alt="img" />
             Team Member
           </span> */}
           <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
@@ -61,7 +61,7 @@ const Team = () => {
             >
               <div className="team-card-items">
                 <div className="team-image">
-                  <img src={`assets/img/team/${member.img}`} alt="team-img" />
+                  <img src={`/assets/img/team/${member.img}`} alt="team-img" />
                   <div className="icon-list">
                     <ul>
                       {member.facebook && (

@@ -4,7 +4,7 @@ const WorkingProcess = () => {
       <div className="container">
         <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
-            <img src="assets/img/bale.png" alt="img" />
+            <img src="/assets/img/bale.png" alt="img" />
             Working Process
           </span>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -16,7 +16,7 @@ const WorkingProcess = () => {
           <div className="col-lg-8 wow fadeInUp" data-wow-delay=".3s">
             <div className="working-card-items">
               <div className="icon">
-                <img src="assets/img/working-process/icon-1.png" alt="img" />
+                <img src="/assets/img/working-process/icon-1.png" alt="img" />
               </div>
               <div className="content">
                 <span className="sub-title">Step 01</span>
@@ -30,13 +30,13 @@ const WorkingProcess = () => {
           </div>
           <div className="col-lg-3 wow fadeInUp" data-wow-delay=".5s">
             <div className="arrow-image">
-              <img src="assets/img/working-process/arrow-down.png" alt="img" />
+              <img src="/assets/img/working-process/arrow-down.png" alt="img" />
             </div>
           </div>
           <div className="col-lg-3 wow fadeInUp" data-wow-delay=".3s">
             <div className="arrow-image text-center">
               <img
-                src="assets/img/working-process/arrow-revers.png"
+                src="/assets/img/working-process/arrow-revers.png"
                 alt="img"
               />
             </div>
@@ -52,14 +52,14 @@ const WorkingProcess = () => {
                 </p>
               </div>
               <div className="icon">
-                <img src="assets/img/working-process/icon-2.png" alt="img" />
+                <img src="/assets/img/working-process/icon-2.png" alt="img" />
               </div>
             </div>
           </div>
           <div className="col-lg-8 wow fadeInUp" data-wow-delay=".3s">
             <div className="working-card-items">
               <div className="icon">
-                <img src="assets/img/working-process/icon-3.png" alt="img" />
+                <img src="/assets/img/working-process/icon-3.png" alt="img" />
               </div>
               <div className="content">
                 <span className="sub-title">Step 03</span>
@@ -73,13 +73,13 @@ const WorkingProcess = () => {
           </div>
           <div className="col-lg-3 wow fadeInUp" data-wow-delay=".5s">
             <div className="arrow-image">
-              <img src="assets/img/working-process/arrow-down.png" alt="img" />
+              <img src="/assets/img/working-process/arrow-down.png" alt="img" />
             </div>
           </div>
           <div className="col-lg-3 wow fadeInUp" data-wow-delay=".3s">
             <div className="arrow-image text-center">
               <img
-                src="assets/img/working-process/arrow-revers.png"
+                src="/assets/img/working-process/arrow-revers.png"
                 alt="img"
               />
             </div>
@@ -95,7 +95,7 @@ const WorkingProcess = () => {
                 </p>
               </div>
               <div className="icon">
-                <img src="assets/img/working-process/icon-4.png" alt="img" />
+                <img src="/assets/img/working-process/icon-4.png" alt="img" />
               </div>
             </div>
           </div>
@@ -124,7 +124,7 @@ export const WorkingProcess2 = () => {
                 className="work-process-image wow fadeInUp"
                 data-wow-delay=".4s"
               >
-                <img src="assets/img/certificates/147_Page1.jpg" alt="img" />
+                <img src="/assets/img/certificates/147_Page1.jpg" alt="img" />
               </div>
               <div
                 className="work-process-image wow fadeInUp"
@@ -137,7 +137,7 @@ export const WorkingProcess2 = () => {
                 className="work-process-image wow fadeInUp"
                 data-wow-delay=".4s"
               >
-                <img src="assets/img/certificates/147_Page2.jpg" alt="img" />
+                <img src="/assets/img/certificates/147_Page2.jpg" alt="img" />
               </div>
               <div
                 className="work-process-image wow fadeInUp"
@@ -150,7 +150,7 @@ export const WorkingProcess2 = () => {
                 className="work-process-image wow fadeInUp"
                 data-wow-delay=".4s"
               >
-                <img src="assets/img/certificates/147_Page3.jpg" alt="img" />
+                <img src="/assets/img/certificates/147_Page3.jpg" alt="img" />
               </div>
               <div
                 className="work-process-image wow fadeInUp"
@@ -163,7 +163,7 @@ export const WorkingProcess2 = () => {
                 className="work-process-image wow fadeInUp"
                 data-wow-delay=".4s"
               >
-                <img src="assets/img/certificates/147_Page4.jpg" alt="img" />
+                <img src="/assets/img/certificates/147_Page4.jpg" alt="img" />
               </div>
               <div
                 className="work-process-image wow fadeInUp"

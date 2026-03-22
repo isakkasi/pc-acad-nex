@@ -9,7 +9,7 @@ const Team = () => {
             <div className="col-lg-6">
               <div className="section-title">
                 <span className="sub-content wow fadeInUp">
-                  <img src="assets/img/bale.png" alt="img" />
+                  <img src="/assets/img/bale.png" alt="img" />
                   Team Member
                 </span>
                 <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -28,7 +28,7 @@ const Team = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/01.jpg" alt="img" />
+                  <img src="/assets/img/team/01.jpg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
@@ -71,7 +71,7 @@ const Team = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/02.jpg" alt="img" />
+                  <img src="/assets/img/team/02.jpg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
@@ -114,7 +114,7 @@ const Team = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/03.jpg" alt="img" />
+                  <img src="/assets/img/team/03.jpg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
@@ -157,7 +157,7 @@ const Team = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/04.jpg" alt="img" />
+                  <img src="/assets/img/team/04.jpg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
@@ -200,7 +200,7 @@ const Team = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/05.jpg" alt="img" />
+                  <img src="/assets/img/team/05.jpg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>

@@ -94,14 +94,14 @@ const temp = `
 <section
                 className="service-section-4 fix bg-cover section-padding"
                 style={{
-                    backgroundImage: 'url("assets/img/service/service-bg-min.jpg")',
+                    backgroundImage: 'url("/assets/img/service/service-bg-min.jpg")',
                 }}
                 id="services"
             >
                 <div className="container">
                     <div className="section-title text-center">
                         <span className="sub-content bg-color-3 wow fadeInUp">
-                            <img src="assets/img/bale.png" alt="img" />
+                            <img src="/assets/img/bale.png" alt="img" />
                             Popular Services
                         </span>
                         <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">

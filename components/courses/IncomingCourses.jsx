@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const UpcomingCourses = () => {
+const IncomingCourses = () => {
     const courses = [
         {
             id: 1,
@@ -64,4 +64,4 @@ const UpcomingCourses = () => {
         </section>
     );
 };
-export default UpcomingCourses;
+export default IncomingCourses;

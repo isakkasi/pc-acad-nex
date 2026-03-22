@@ -6,14 +6,14 @@ const News = () => {
       id: 1,
       date: "February 28, 2026",
       title: "Airspace of the Middle East and Persian Gulf",
-      image: "assets/img/news/20260228.jpg",
+      image: "/assets/img/news/20260228.jpg",
       href: "/news-details",
     },
     {
       id: 2,
       date: "December 18, 2025",
       title: "European Plan for Aviation Safety (EPAS) 2026",
-      image: "assets/img/news/20251218.jpg",
+      image: "/assets/img/news/20251218.jpg",
       href: "/news-details",
     },
     
@@ -23,7 +23,7 @@ const News = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
-              {/* <img src="assets/img/bale.png" alt="img" /> */}
+              {/* <img src="/assets/img/bale.png" alt="img" /> */}
               {/* News &amp; Blog */}
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
