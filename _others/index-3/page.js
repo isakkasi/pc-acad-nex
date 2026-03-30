@@ -1,8 +1,8 @@
 import Counter from "@/components/Counter";
 import GrowBusiness from "@/components/GrowBusiness";
-import Team from "@/components/Team";
+import Team from "@/components/about/Team";
 import { TestimonialSlider3 } from "@/components/TestimonialSlider";
-import { WorkingProcess2 } from "@/components/WorkingProcess";
+import { CompanyCertificates } from "@/components/about/CompanyCertificates";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 const page = () => {
@@ -341,7 +341,7 @@ const page = () => {
       {/* Grow Business Section Start */}
       <GrowBusiness />
       {/* Working Process Section Start */}
-      <WorkingProcess2 />
+      <CompanyCertificates />
       {/* Testimonial Section Start */}
       <section className="testimonial-section-3 fix section-padding">
         <div className="container">

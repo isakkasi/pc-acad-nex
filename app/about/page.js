@@ -1,8 +1,8 @@
 import Breadcrumb from '@/components/Breadcrumb';
 import FunFactCounter from '@/components/FunFactCounter';
-import Team from '@/components/Team';
+import Team from '@/components/about/Team';
 import { TestimonialSlider2 } from '@/components/TestimonialSlider';
-import { WorkingProcess2 } from '@/components/WorkingProcess';
+import { CompanyCertificates } from '@/components/about/CompanyCertificates';
 import NextLayout from '@/layouts/NextLayout';
 import Link from 'next/link';
 const page = () => {
@@ -159,7 +159,7 @@ const page = () => {
       </section> */}
       
       {/* Working Process Section Start */}
-      <WorkingProcess2 />
+      <CompanyCertificates />
 
       {/* Brand Section Start */}
       {/* <section className="brand-section-2 mt-0 mb-0 fix section-padding pt-0">

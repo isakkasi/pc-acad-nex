@@ -3,7 +3,7 @@ import Counter from "@/components/Counter";
 import Cta from "@/components/Cta";
 import { GrowBusiness2 } from "@/components/GrowBusiness";
 import Pricing from "@/components/home/Pricing";
-import WorkingProcess from "@/components/WorkingProcess";
+import WorkingProcess from "@/components/about/CompanyCertificates";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 
