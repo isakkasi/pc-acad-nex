@@ -9,7 +9,7 @@ const Courses = () => {
             description:
                 "Explore our EASA Part-66 type training to upgrade your aircraft maintenance license (AML).",
             image: "/assets/img/course/type_training_course.jpg",
-            href: "/courses",
+            href: "/courses/type-trainings",
             button: "Learn More",
         },
         {

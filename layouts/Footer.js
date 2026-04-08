@@ -44,7 +44,7 @@ const Footer = () => {
 
                         {/* <RecentNews /> */}
 
-                        <NewsletterSignIn />
+                        {/* <NewsletterSignIn /> */}
                     </div>
                 </div>
                 <div className="footer-bottom">

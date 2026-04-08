@@ -7,14 +7,16 @@ const News = () => {
       date: "February 28, 2026",
       title: "Airspace of the Middle East and Persian Gulf",
       image: "/assets/img/news/20260228.jpg",
-      href: "/news-details",
+      // href: "/news-details",
+      href: "",
     },
     {
       id: 2,
       date: "December 18, 2025",
       title: "European Plan for Aviation Safety (EPAS) 2026",
       image: "/assets/img/news/20251218.jpg",
-      href: "/news-details",
+      // href: "/news-details",
+      href: "",
     },
     
   ];

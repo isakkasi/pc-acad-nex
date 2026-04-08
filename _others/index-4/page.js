@@ -4,7 +4,7 @@ import {
   TestimonialSlider4,
   TestimonialSlider5,
 } from "@/components/TestimonialSlider";
-import WorkingProcess from "@/components/WorkingProcess";
+import WorkingProcess from "@/components/about/CompanyCertificates";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
 const page = () => {
