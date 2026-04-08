@@ -71,14 +71,6 @@ const About = () => {
                                             <i className="far fa-arrow-right" />
                                         </Link>
                                     </div>
-                                    <div className="author-image">
-                                        <img src="/assets/img/about/author.jpg" alt="author-img" />
-                                        <div className="content">
-                                            <h5>
-                                                Viktor Mihaylov / <span>CEO</span>
-                                            </h5>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>

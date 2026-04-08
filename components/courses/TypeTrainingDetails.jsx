@@ -81,24 +81,24 @@ const TypeTrainingDetails = ({ training }) => {
                             <div className="project-information">
                                 <h4>Course Information</h4>
                                 <ul>
-                                    <li>
-                                        Aircraft <span>{training.title}</span>
+                                    <li style={{ fontSize: "1rem" }}>
+                                        Aircraft <span style={{marginLeft: "16px", textAlign: "right"}}>{training.title}</span>
                                     </li>
                                     {training.engines && (
-                                        <li>
-                                            Engines <span>{training.engines}</span>
+                                        <li style={{ fontSize: "1rem" }}>
+                                            Engines <span style={{marginLeft: "16px", textAlign: "right"}}>{training.engines}</span>
                                         </li>
                                     )}
                                     {training.category && (
-                                        <li>
-                                            Category <span>{training.category}</span>
+                                        <li style={{ fontSize: "1rem" }}>
+                                            Category <span style={{marginLeft: "16px", textAlign: "right"}}>{training.category}</span>
                                         </li>
                                     )}
-                                    <li>
-                                        Approval <span>EASA Part-147</span>
+                                    <li style={{ fontSize: "1rem" }}>
+                                        Approval <span style={{marginLeft: "16px", textAlign: "right"}}>EASA Part-147</span>
                                     </li>
-                                    <li>
-                                        Price <span>On request</span>
+                                    <li style={{ fontSize: "1rem" }}>
+                                        Price <span style={{marginLeft: "16px", textAlign: "right"}}>On request</span>
                                     </li>
                                 </ul>
                                 <div className="mt-4">

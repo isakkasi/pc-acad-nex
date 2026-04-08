@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Fragment } from "react";
 
 /**
  * Breadcrumb component.
@@ -30,25 +31,25 @@ const Breadcrumb = ({ pageName = "Page", pageTitle, link, crumbs }) => {
                     <h1 className="wow fadeInUp" data-wow-delay=".3s">
                         {heading}
                     </h1>
-                    <ul className="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                    <ul className="breadcrumb-items wow fadeInUp" data-wow-delay=".5s" style={{ flexWrap: "wrap" }}>
                         <li>
                             <Link href="/">Home</Link>
                         </li>
 
                         {crumbs ? (
                             crumbs.map((crumb, index) => (
-                                <>
-                                    <li key={`sep-${index}`}>
+                                <Fragment key={index}>
+                                    <li>
                                         <i className="fas fa-chevron-right" />
                                     </li>
-                                    <li key={`crumb-${index}`} className={!crumb.href ? "style-2" : ""}>
+                                    <li className={!crumb.href ? "style-2" : ""}>
                                         {crumb.href ? (
                                             <Link href={crumb.href}>{crumb.label}</Link>
                                         ) : (
                                             crumb.label
                                         )}
                                     </li>
-                                </>
+                                </Fragment>
                             ))
                         ) : (
                             <>
