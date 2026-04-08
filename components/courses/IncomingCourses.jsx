@@ -1,38 +1,8 @@
 import Link from "next/link";
+import content from "@/data/content.json";
 
 const IncomingCourses = () => {
-    const courses = [
-        {
-            id: 1,
-            title: "Airbus A320neo Type Training",
-            image: "/assets/img/ac/A320neo.jpg",
-            href: "/service-details",
-        },
-        {
-            id: 2,
-            title: "Airbus A330ceo Type Training",
-            image: "/assets/img/ac/A330ceo.png",
-            href: "/service-details",
-        },
-        {
-            id: 3,
-            title: "Airbus A330neo Type Training",
-            image: "/assets/img/ac/A330neo.jpg",
-            href: "/service-details",
-        },
-        {
-            id: 4,
-            title: "Airbus A330neo Type Training",
-            image: "/assets/img/ac/A330neo.jpg",
-            href: "/service-details",
-        },
-        {
-            id: 5,
-            title: "Airbus A330neo Type Training",
-            image: "/assets/img/ac/A330neo.jpg",
-            href: "/service-details",
-        },
-    ];
+    const courses = content.incomingCourses;
     return (
         <section className="service-section fix pt-80 pb-80 section-bg">
             <div className="container">

@@ -1,39 +1,9 @@
 import Link from "next/link";
 import { Fragment } from "react";
+import content from "@/data/content.json";
 
 const Courses = () => {
-    const courseCategories = [
-        {
-            id: 1,
-            title: "Type Trainings",
-            description:
-                "Explore our EASA Part-66 type training to upgrade your aircraft maintenance license (AML).",
-            image: "/assets/img/course/type_training_course.jpg",
-            href: "/courses/type-trainings",
-            button: "Learn More",
-        },
-        {
-            id: 2,
-            title: "Online Trainings",
-            description:
-                "Discover our specialized online training programs tailored to enhance your expertise in both technical and regulatory aspects.",
-            image: "/assets/img/course/online_training_course.jpg",
-            href: "https://pca.contipso.com/",
-            newTab: true,
-            button: "Go to Catalogue",
-
-        },
-        {
-            id: 3,
-            title: "Other Trainings",
-            description:
-                "We provide a range of other aviation-related training courses designed to meet the diverse needs of industry professionals.",
-            image: "/assets/img/course/other_training_course.jpg",
-            href: "/courses",
-            button: "Learn More",
-
-        },
-    ];
+    const courseCategories = content.courseCategories;
 
     return (
         <Fragment>

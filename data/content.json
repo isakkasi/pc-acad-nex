@@ -1,0 +1,449 @@
+{
+    "_comment": "Central content file for Plane Care Academy. Replace this with a CMS or database API when the backend is ready.",
+
+    "site": {
+        "name": "Plane Care Academy",
+        "tagline": "The next level of aviation training",
+        "description": "An EASA Part-147 approved training organization based in Bulgaria.",
+        "logo": {
+            "dark": "/assets/img/logo/black-logo.svg",
+            "light": "/assets/img/logo/white-logo.svg"
+        },
+        "favicon": "/favicon.ico"
+    },
+
+    "contact": {
+        "address": "Sofia Airport, bl.3, off.1, Sofia, Bulgaria",
+        "email": "pca@pc-acad.com",
+        "phones": [
+            "+359 886 942 644",
+            "+359 898 304 029"
+        ],
+        "social": {
+            "facebook": "https://www.facebook.com/profile.php?id=61565616397848",
+            "linkedin": "https://www.linkedin.com/company/90363949/admin/dashboard/",
+            "twitter": "",
+            "instagram": ""
+        }
+    },
+
+    "navigation": [
+        { "id": 0, "title": "Home", "href": "/" },
+        {
+            "id": 1,
+            "title": "Courses",
+            "href": "/courses",
+            "submenus": [
+                { "id": "a", "title": "Incoming Courses", "href": "/courses/incoming-courses" },
+                { "id": "b", "title": "Type Trainings", "href": "/courses/type-trainings" },
+                { "id": "c", "title": "Online Trainings", "href": "/courses/online-trainings" },
+                { "id": "d", "title": "Other Trainings", "href": "/courses/other-trainings" }
+            ]
+        },
+        { "id": 2, "title": "About", "href": "/about" },
+        { "id": 3, "title": "Contact", "href": "/contact" },
+        { "id": 4, "title": "News", "href": "/news" }
+    ],
+
+    "footer": {
+        "quickLinks": [
+            { "id": 1, "title": "About Us", "href": "/about" },
+            { "id": 2, "title": "Courses", "href": "/courses" },
+            { "id": 3, "title": "Type Trainings", "href": "/courses/type-trainings" },
+            { "id": 4, "title": "Online Trainings", "href": "/courses/online-trainings" },
+            { "id": 5, "title": "Contact", "href": "/contact" }
+        ],
+        "bottomLinks": [
+            { "id": 1, "title": "Company", "href": "/about" },
+            { "id": 2, "title": "Contact", "href": "/contact" }
+        ],
+        "copyright": "2022-2026"
+    },
+
+    "hero": {
+        "backgroundImage": "/assets/img/hero/01.jpg",
+        "heading": "We Take Care of Your Aviation Career & Provide the Best Trainings",
+        "buttons": [
+            {
+                "label": "View all courses",
+                "href": "/courses",
+                "style": "primary"
+            },
+            {
+                "label": "View Incoming Courses",
+                "href": "/courses/incoming-courses",
+                "style": "link"
+            }
+        ]
+    },
+
+    "about": {
+        "subtitle": "About Plane Care Academy",
+        "heading": "EASA Part-147 Certified Aviation Maintenance Training Organization",
+        "body": "Plane Care Academy is a certified aviation maintenance training organization, based in Bulgaria and licensed under EASA Part-147. We are dedicated to shaping the next generation of highly skilled aircraft maintenance professionals through top-quality, industry-focused training programs.",
+        "bulletPoints": [
+            "Flexible training options to fit your schedule and learning style",
+            "Access to a wide range of courses to advance your career",
+            "Personalized support and guidance throughout your training journey",
+            "Opportunities for hands-on experience and real-world application of skills"
+        ],
+        "ceo": {
+            "name": "Viktor Mihaylov",
+            "title": "CEO",
+            "image": "/assets/img/about/author.jpg"
+        },
+        "images": [
+            "/assets/img/about/05.png",
+            "/assets/img/about/06.png"
+        ]
+    },
+
+    "stats": [
+        {
+            "id": 1,
+            "value": 147,
+            "suffix": "",
+            "label": "EASA Part-147 Approved",
+            "description": "Fully certified and approved by the European Union Aviation Safety Agency"
+        },
+        {
+            "id": 2,
+            "value": 10,
+            "suffix": "+",
+            "label": "Aircraft Type Courses",
+            "description": "Covering the most widely operated aircraft in commercial aviation"
+        },
+        {
+            "id": 3,
+            "value": 3,
+            "suffix": "",
+            "label": "Founders with industry experience",
+            "description": "Combined decades of aviation maintenance and training expertise"
+        },
+        {
+            "id": 4,
+            "value": 100,
+            "suffix": "%",
+            "label": "EASA Compliant Training",
+            "description": "All programs designed and delivered in full compliance with EASA regulations"
+        }
+    ],
+
+    "courseCategories": [
+        {
+            "id": 1,
+            "title": "Type Trainings",
+            "description": "Explore our EASA Part-66 type training to upgrade your aircraft maintenance license (AML).",
+            "image": "/assets/img/course/type_training_course.jpg",
+            "href": "/courses/type-trainings",
+            "button": "Learn More",
+            "newTab": false
+        },
+        {
+            "id": 2,
+            "title": "Online Trainings",
+            "description": "Discover our specialized online training programs tailored to enhance your expertise in both technical and regulatory aspects.",
+            "image": "/assets/img/course/online_training_course.jpg",
+            "href": "https://pca.contipso.com/",
+            "button": "Go to Catalogue",
+            "newTab": true
+        },
+        {
+            "id": 3,
+            "title": "Other Trainings",
+            "description": "We provide a range of other aviation-related training courses designed to meet the diverse needs of industry professionals.",
+            "image": "/assets/img/course/other_training_course.jpg",
+            "href": "/courses/other-trainings",
+            "button": "Learn More",
+            "newTab": false
+        }
+    ],
+
+    "typeTrainings": [
+        {
+            "id": 1,
+            "name": "Airbus A320ceo series Type Training",
+            "subName": "Description for Airbus A320 (CFM56) Type Training",
+            "title": "Airbus A320 series",
+            "subtitle": "(CFM56, V2500)",
+            "category": "B1.1 & B2",
+            "description": "Step forward in your career with Airbus A320 Type Training. Designed for aircraft maintenance professionals applying for an EASA Part-66 license, covering both CFM56 and V2500 engine variants with full theoretical and practical training.",
+            "image": "/assets/img/ac/v2/A320ceo.jpg",
+            "href": "/courses/type-trainings/a320-ceo",
+            "engines": "CFM56, V2500",
+            "selfStudyNote": true,
+            "options": [
+                { "label": "A320 (CFM56) B1.1/B2", "theory": "28 days*", "practical": "10 days", "total": "38 days" },
+                { "label": "A320 (V2500) B1.1/B2", "theory": "28 days*", "practical": "10 days", "total": "38 days" },
+                { "label": "B1.1 only", "theory": "26 days*", "practical": "10 days", "total": "36 days" },
+                { "label": "B2 only", "theory": "22 days*", "practical": "10 days", "total": "32 days" },
+                { "label": "Conversion B1.1 → B2", "theory": "2 days", "practical": "1 day", "total": "3 days" },
+                { "label": "Conversion B2 → B1.1", "theory": "9 days", "practical": "2 days", "total": "11 days" },
+                { "label": "Differences (CFM56 ↔ V2500)", "theory": "3 days", "practical": "1 day", "total": "4 days" }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Airbus A320neo series Type Training",
+            "subName": "Description for Airbus A320neo (CFM LEAP, PW1100G) Type Training",
+            "title": "Airbus A320neo series",
+            "subtitle": "(CFM LEAP, PW1100G)",
+            "category": "B1.1 & B2",
+            "description": "Step forward in your career with Airbus A320neo Type Training. Covering the new-engine option variants with CFM LEAP and PW1100G powerplants, including differences courses from CFM56/V2500 variants.",
+            "image": "/assets/img/ac/v2/A320neo.jpg",
+            "href": "/courses/type-trainings/a320-neo",
+            "engines": "CFM LEAP, PW1100G",
+            "selfStudyNote": false,
+            "options": [
+                { "label": "Differences: (CFM56/V2500/PW1100G) → CFM LEAP, Cat B1.1/B2", "theory": "3 days", "practical": "1 day", "total": "4 days" },
+                { "label": "Differences: (CFM56/V2500/CFM LEAP) → PW1100G, Cat B1.1/B2", "theory": "3 days", "practical": "1 day", "total": "4 days" }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Airbus A330 series Type Training",
+            "subName": "Description for Airbus A330 (GE CF6, PW4000, RR Trent 700) Type Training",
+            "title": "Airbus A330 series",
+            "subtitle": "(GE CF6, PW4000, RR Trent 700)",
+            "category": "B1.1 & B2",
+            "description": "Step forward in your career with Airbus A330 Type Training. Covering the classic-engine variants with GE CF6, PW4000, and RR Trent 700 powerplants, plus cross-variant differences and A320-to-A330 differences courses.",
+            "image": "/assets/img/ac/v2/A330ceo.jpg",
+            "href": "/courses/type-trainings/a330-ceo",
+            "engines": "GE CF6, PW4000, RR Trent 700",
+            "selfStudyNote": true,
+            "options": [
+                { "label": "A330 (GE CF6) B1.1/B2", "theory": "28 days*", "practical": "10 days", "total": "38 days" },
+                { "label": "A330 (PW4000) B1.1/B2", "theory": "28 days*", "practical": "10 days", "total": "38 days" },
+                { "label": "A330 (RR Trent 700) B1.1/B2", "theory": "28 days*", "practical": "10 days", "total": "38 days" },
+                { "label": "B1.1 only", "theory": "26 days*", "practical": "10 days", "total": "36 days" },
+                { "label": "B2 only", "theory": "22 days*", "practical": "10 days", "total": "32 days" },
+                { "label": "Differences A330 ↔ (GE CF6)", "theory": "3 days", "practical": "1 day", "total": "4 days" },
+                { "label": "Differences A330 ↔ (PW4000)", "theory": "3 days", "practical": "1 day", "total": "4 days" },
+                { "label": "Differences A330 ↔ (RR Trent 700)", "theory": "3 days", "practical": "1 day", "total": "4 days" },
+                { "label": "Differences A320 ↔ A330 (GE CF6)", "theory": "15 days*", "practical": "3 days", "total": "18 days" },
+                { "label": "Differences A320 ↔ A330 (PW4000)", "theory": "15 days*", "practical": "3 days", "total": "18 days" },
+                { "label": "Differences A320 ↔ A330 (RR Trent 700)", "theory": "15 days*", "practical": "3 days", "total": "18 days" }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Airbus A330neo series Type Training",
+            "subName": "Description for Airbus A330neo (RR Trent 7000) Type Training",
+            "title": "Airbus A330neo series",
+            "subtitle": "(RR Trent 7000)",
+            "category": "B1.1 & B2",
+            "description": "Covering the new-engine option A330 variant with the RR Trent 7000 powerplant, offered as a differences course from the A330ceo variants.",
+            "image": "/assets/img/ac/v2/A330neo.jpg",
+            "href": "/courses/type-trainings/a330-neo",
+            "engines": "RR Trent 7000",
+            "selfStudyNote": false,
+            "options": [
+                { "label": "Differences A330 ↔ (RR Trent 7000)", "theory": "4 days", "practical": "1 day", "total": "5 days" }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Boeing 737 CL & NG Type Training",
+            "subName": "Description for Boeing 737 CL & NG (CFM56-3, CFM56-7) Type Training",
+            "title": "Boeing 737 CL & NG",
+            "subtitle": "(CFM56-3, CFM56-7)",
+            "category": "B1.1 & B2",
+            "description": "Step forward in your career with Boeing 737 Type Training. Covering the Classic (CFM56-3) and Next Generation (CFM56-7) variants, including standalone and differences courses.",
+            "image": "/assets/img/ac/v2/737NG.jpg",
+            "href": "/courses/type-trainings/737-ng",
+            "engines": "CFM56-3, CFM56-7",
+            "selfStudyNote": true,
+            "options": [
+                { "label": "737 CL (CFM56-3) B1.1/B2", "theory": "29 days*", "practical": "10 days", "total": "39 days" },
+                { "label": "737 CL (CFM56-3) B1.1", "theory": "26 days*", "practical": "10 days", "total": "36 days" },
+                { "label": "737 CL (CFM56-3) B2", "theory": "21 days*", "practical": "10 days", "total": "31 days" },
+                { "label": "737 NG (CFM56-7) B1.1/B2", "theory": "29 days*", "practical": "10 days", "total": "39 days" },
+                { "label": "737 NG (CFM56-7) B1.1", "theory": "26 days*", "practical": "10 days", "total": "36 days" },
+                { "label": "737 NG (CFM56-7) B2", "theory": "24 days*", "practical": "10 days", "total": "31 days" },
+                { "label": "Differences CL ↔ NG", "theory": "11 days", "practical": "3 days", "total": "14 days" }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Boeing 737 MAX Type Training",
+            "subName": "Description for Boeing 737 MAX (CFM LEAP-1B) Type Training",
+            "title": "Boeing 737 MAX",
+            "subtitle": "(CFM LEAP-1B)",
+            "category": "B1.1 & B2",
+            "description": "Step forward in your career with Boeing 737 MAX Type Training. Covering the MAX variant with the CFM LEAP-1B powerplant, including differences courses from the NG variant.",
+            "image": "/assets/img/ac/v2/737MAX.jpg",
+            "href": "/courses/type-trainings/737-max",
+            "engines": "CFM LEAP-1B",
+            "selfStudyNote": true,
+            "options": [
+                { "label": "737 MAX (CFM LEAP) B1.1/B2", "theory": "30 days*", "practical": "10 days", "total": "40 days" },
+                { "label": "737 MAX (CFM LEAP) B1.1", "theory": "26 days*", "practical": "10 days", "total": "36 days" },
+                { "label": "737 MAX (CFM LEAP) B2", "theory": "24 days*", "practical": "10 days", "total": "34 days" },
+                { "label": "Differences NG ↔ MAX", "theory": "7 days", "practical": "2 days", "total": "9 days" }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Bombardier BD-500 / Airbus A220 Type Training",
+            "subName": "Description for Bombardier BD-500 / Airbus A220 (PW1500G) Type Training",
+            "title": "Bombardier BD-500 / Airbus A220",
+            "subtitle": "(PW1500G)",
+            "category": "B1.1 & B2",
+            "description": "Step forward in your career with Airbus A220 Type Training. Covering the Bombardier BD-500 series (marketed as Airbus A220) powered by the PW1500G engine.",
+            "image": "/assets/img/ac/v2/A220.jpg",
+            "href": "/courses/type-trainings/a220",
+            "engines": "PW1500G",
+            "selfStudyNote": true,
+            "options": [
+                { "label": "A220 (PW1500G) B1.1/B2", "theory": "29 days*", "practical": "10 days", "total": "39 days" },
+                { "label": "A220 (PW1500G) B1.1", "theory": "27 days*", "practical": "10 days", "total": "37 days" },
+                { "label": "A220 (PW1500G) B2", "theory": "23 days*", "practical": "10 days", "total": "33 days" }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Gulfstream G200 & G280 Type Training",
+            "subName": "Description for Gulfstream G200 & G280 (PWC PW306, Honeywell AS907) Type Training",
+            "title": "Gulfstream G200 & G280",
+            "subtitle": "(PWC PW306, Honeywell AS907)",
+            "category": "B1.1 & B2",
+            "description": "Step forward in your career with Gulfstream G200 & G280 Type Training. Covering the G200 (IAI Galaxy, PWC PW306) and G280 (Honeywell AS907) business jets, including differences courses between variants.",
+            "image": "/assets/img/ac/v2/G200.jpg",
+            "href": "/courses/type-trainings/g200",
+            "engines": "PWC PW306, Honeywell AS907",
+            "selfStudyNote": true,
+            "options": [
+                { "label": "Gulfstream G200/Galaxy (PWC PW306) B1.1/B2", "theory": "21 days*", "practical": "10 days", "total": "31 days" },
+                { "label": "Differences: G200 (PW306) → G280 (AS907), B1.1/B2", "theory": "6 days", "practical": "2 days", "total": "8 days" }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Embraer E170/190 Type Training",
+            "subName": "Description for Embraer E170/190 (GE CF34) Type Training",
+            "title": "Embraer E170/190",
+            "subtitle": "",
+            "category": "B1.1 & B2",
+            "description": "Type training for the Embraer E170 and E190 regional jets. Contact us for full course details and available options.",
+            "image": "/assets/img/ac/v2/E190.jpg",
+            "href": "/courses/type-trainings/e170-190",
+            "engines": "GE CF34",
+            "selfStudyNote": false,
+            "options": []
+        },
+        {
+            "id": 10,
+            "name": "ATR 42/72 Type Training",
+            "subName": "Description for ATR 42/72 (PW127) Type Training",
+            "title": "ATR 42/72",
+            "subtitle": "",
+            "category": "B1.1 & B2",
+            "description": "Type training for the ATR 42 and ATR 72 turboprop aircraft. Contact us for full course details and available options.",
+            "image": "/assets/img/ac/v2/ATR72.jpg",
+            "href": "/courses/type-trainings/atr-42-72",
+            "engines": "PW127",
+            "selfStudyNote": false,
+            "options": []
+        }
+    ],
+
+    "incomingCourses": [
+        {
+            "id": 1,
+            "title": "Airbus A320neo Type Training",
+            "image": "/assets/img/ac/A320neo.jpg",
+            "href": "/service-details"
+        },
+        {
+            "id": 2,
+            "title": "Airbus A330ceo Type Training",
+            "image": "/assets/img/ac/A330ceo.png",
+            "href": "/service-details"
+        },
+        {
+            "id": 3,
+            "title": "Airbus A330neo Type Training",
+            "image": "/assets/img/ac/A330neo.jpg",
+            "href": "/service-details"
+        }
+    ],
+
+    "news": [
+        {
+            "id": 1,
+            "date": "February 28, 2026",
+            "title": "Airspace of the Middle East and Persian Gulf",
+            "image": "/assets/img/news/20260228.jpg",
+            "href": "",
+            "slug": "airspace-middle-east-persian-gulf"
+        },
+        {
+            "id": 2,
+            "date": "December 18, 2025",
+            "title": "European Plan for Aviation Safety (EPAS) 2026",
+            "image": "/assets/img/news/20251218.jpg",
+            "href": "",
+            "slug": "epas-2026"
+        }
+    ],
+
+    "team": [
+        {
+            "id": 1,
+            "name": "Viktor Mihaylov",
+            "position": "CEO & Founder",
+            "image": "/assets/img/team/vmih.jpeg",
+            "social": {
+                "facebook": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/in/viktor-mihaylov-387a0549/",
+                "instagram": ""
+            }
+        },
+        {
+            "id": 2,
+            "name": "Aleksandar Georgiev",
+            "position": "Training Manager & Founder",
+            "image": "/assets/img/team/ageo.jpeg",
+            "social": {
+                "facebook": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/in/aleksandar-georgiev-b09006a5/",
+                "instagram": ""
+            }
+        },
+        {
+            "id": 3,
+            "name": "Jivomir Jelev",
+            "position": "Examination Manager & Founder",
+            "image": "/assets/img/team/zzhe.jpeg",
+            "social": {
+                "facebook": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/in/zhivomir-zhelev-91743758/",
+                "instagram": ""
+            }
+        },
+        {
+            "id": 4,
+            "name": "Yoana Ivanova",
+            "position": "Quality Manager",
+            "image": "/assets/img/team/team_placeholder.jpg",
+            "social": {
+                "facebook": "",
+                "twitter": "",
+                "linkedin": "https://www.linkedin.com/in/yoana-ivanova-3b61b3152/",
+                "instagram": ""
+            }
+        }
+    ],
+
+    "certificates": [
+        { "id": 1, "image": "/assets/img/certificates/147_Page1.jpg" },
+        { "id": 2, "image": "/assets/img/certificates/147_Page2.jpg" },
+        { "id": 3, "image": "/assets/img/certificates/147_Page3.jpg" },
+        { "id": 4, "image": "/assets/img/certificates/147_Page4.jpg" },
+        { "id": 5, "image": "/assets/img/certificates/147_Page5.jpg" },
+        { "id": 6, "image": "/assets/img/certificates/147_Page6.jpg" }
+    ]
+}

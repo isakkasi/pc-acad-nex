@@ -10,7 +10,7 @@ const TypeTrainingCard = ({ training }) => {
                 <div className="project-content">
                     <p>Cat. B1.1/B2</p>
                     <h3>
-                        <Link href="project-details">
+                        <Link href={training.href}>
                             {training.title}
                         </Link>
                     </h3>
