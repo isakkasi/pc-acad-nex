@@ -2,7 +2,6 @@ import AboutUs from '@/components/footer/AboutUs';
 import GetInTouch from '@/components/footer/GetInTouch';
 import NewsletterSignIn from '@/components/footer/NewsletterSignIn';
 import QuickLinks from '@/components/footer/QuickLinks';
-import RecentNews from '@/components/footer/RecentNews';
 import Link from 'next/link';
 
 const Footer = () => {
@@ -56,13 +55,10 @@ const Footer = () => {
                                 data-wow-delay=".2s"
                             >
                                 <li>
-                                    <Link href="faq">FAQs</Link>
+                                    <Link href="/about">Company</Link>
                                 </li>
                                 <li>
-                                    <Link href="about">Company</Link>
-                                </li>
-                                <li>
-                                    <Link href="contact">Privacy</Link>
+                                    <Link href="/contact">Contact</Link>
                                 </li>
                             </ul>
                             <a

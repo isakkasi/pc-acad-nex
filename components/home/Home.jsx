@@ -23,14 +23,14 @@ const Home = () => {
                                 </h1>
                                 <div className="hero-button">
                                     <Link
-                                        href="courses"
+                                        href="/courses"
                                         className="theme-btn hover-white wow fadeInUp"
                                         data-wow-delay=".4s"
                                     >
                                         View all courses <i className="far fa-arrow-right" />
                                     </Link>
                                     <Link
-                                        href="courses/incoming"
+                                        href="/courses/incoming-courses"
                                         className="btn-link wow fadeInUp"
                                         data-wow-delay=".6s"
                                     >

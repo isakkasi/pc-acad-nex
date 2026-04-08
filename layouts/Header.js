@@ -32,7 +32,7 @@ const Header = ({ single }) => {
         },
         { id: 2, href: "/about", title: "About" },
         { id: 3, href: "/contact", title: "Contact" },
-        { id: 4, href: "/blog", title: "Blog" },
+        { id: 4, href: "/news", title: "News" },
     ];
 
     return (

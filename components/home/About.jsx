@@ -66,7 +66,7 @@ const About = () => {
                                 </ul>
                                 <div className="about-author wow fadeInUp" data-wow-delay=".5s">
                                     <div className="about-button">
-                                        <Link href="about" className="theme-btn">
+                                        <Link href="/about" className="theme-btn">
                                             More About Us
                                             <i className="far fa-arrow-right" />
                                         </Link>
