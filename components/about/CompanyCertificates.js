@@ -1,29 +1,9 @@
-const certificatePages = [
-    {
-        id: 1,
-        img: "147_Page1.jpg",
-    },
-    {
-        id: 2,
-        img: "147_Page2.jpg",
-    },
-    {
-        id: 3,
-        img: "147_Page3.jpg",
-    },
-    {
-        id: 4,
-        img: "147_Page4.jpg",
-    },
-    {
-        id: 5,
-        img: "147_Page5.jpg",
-    },
-    {
-        id: 6,
-        img: "147_Page6.jpg",
-    },
-];
+import content from "@/data/content.json";
+
+const certificatePages = content.certificates.map((c) => ({
+    id: c.id,
+    img: c.image.split("/").pop(),
+}));
 
 export const CompanyCertificates = () => {
     return (

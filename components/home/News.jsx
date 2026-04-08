@@ -1,25 +1,8 @@
 import Link from "next/link";
+import content from "@/data/content.json";
 
 const News = () => {
-  const news = [
-    {
-      id: 1,
-      date: "February 28, 2026",
-      title: "Airspace of the Middle East and Persian Gulf",
-      image: "/assets/img/news/20260228.jpg",
-      // href: "/news-details",
-      href: "",
-    },
-    {
-      id: 2,
-      date: "December 18, 2025",
-      title: "European Plan for Aviation Safety (EPAS) 2026",
-      image: "/assets/img/news/20251218.jpg",
-      // href: "/news-details",
-      href: "",
-    },
-    
-  ];
+  const news = content.news;
     return (
       <section className="news-section section-padding pt-0">
         <div className="container">

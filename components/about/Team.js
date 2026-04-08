@@ -1,44 +1,16 @@
 import Link from 'next/link';
+import content from '@/data/content.json';
 
 const Team = () => {
-  const team = [
-    {
-      img: 'vmih.jpeg',
-      name: 'Viktor Mihaylov',
-      position: 'CEO & Founder',
-      facebook: '',
-      twitter: '',
-      linkedin: 'https://www.linkedin.com/in/viktor-mihaylov-387a0549/',
-      pinterest: '',
-    },
-    {
-      img: 'ageo.jpeg',
-      name: 'Aleksandar Georgiev',
-      position: 'Training Manager & Founder',
-      facebook: '',
-      twitter: '',
-      linkedin: 'https://www.linkedin.com/in/aleksandar-georgiev-b09006a5/',
-      pinterest: '',
-    },
-    {
-      img: 'zzhe.jpeg',
-      name: 'Jivomir Jelev',
-      position: 'Examination Manager & Founder',
-      facebook: '',
-      twitter: '',
-      linkedin: 'https://www.linkedin.com/in/zhivomir-zhelev-91743758/',
-      pinterest: '',
-    },
-    {
-      img: 'team_placeholder.jpg',
-      name: 'Yoana Ivanova',
-      position: 'Quality Manager',
-      facebook: '',
-      twitter: '',
-      linkedin: 'https://www.linkedin.com/in/yoana-ivanova-3b61b3152/',
-      pinterest: '',
-    },
-  ];
+  const team = content.team.map((m) => ({
+    img: m.image.split('/').pop(),
+    name: m.name,
+    position: m.position,
+    facebook: m.social.facebook,
+    twitter: m.social.twitter,
+    linkedin: m.social.linkedin,
+    pinterest: m.social.instagram,
+  }));
 
   return (
     <section className="team-section fix footer-bg section-padding" id="team">
