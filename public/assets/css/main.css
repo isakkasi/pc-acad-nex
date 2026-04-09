@@ -5368,7 +5368,7 @@ input.main-search-input::placeholder {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-.service-card-items:hover {
+/* .service-card-items:hover {
   background-color: var(--theme);
 }
 .service-card-items:hover .icon {
@@ -5385,7 +5385,7 @@ input.main-search-input::placeholder {
 }
 .service-card-items:hover .link-btn {
   color: var(--white);
-}
+} */
 .service-card-items.active {
   background-color: var(--theme);
 }

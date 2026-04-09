@@ -428,7 +428,7 @@
             "subtitle": "(GE CF6, PW4000, RR Trent 700)",
             "category": "B1.1 & B2",
             "description": "Step forward in your career with Airbus A330 Type Training. Covering the classic-engine variants with GE CF6, PW4000, and RR Trent 700 powerplants, plus cross-variant differences courses.",
-            "image": "/assets/img/ac/A330ceo.png",
+            "image": "/assets/img/ac/v2/A330ceo.jpg",
             "href": "/courses/incoming-courses/a330-ceo",
             "slug": "a330-ceo",
             "engines": "GE CF6, PW4000, RR Trent 700",
@@ -442,27 +442,31 @@
             "price": "on request",
             "options": [
                 {
-                    "label": "? A330 (GE CF6) B1.1/B2",
-                    "theory": "28 days*",
-                    "practical": "10 days",
-                    "total": "38 days"
+                    "label": "Difference from A320 (any engine) to A330 (GE CF6) B1.1/B2",
+                    "theory": "15 days*",
+                    "practical": "3 days",
+                    "total": "18 days"
                 },
                 {
-                    "label": "? A330 (PW4000) B1.1/B2**",
-                    "theory": "28 days",
-                    "practical": "10 days",
-                    "total": "38 days"
+                    "label": "Difference from A330 (GE CF6) to A330 (PW4000) B1.1/B2**",
+                    "theory": "3 days",
+                    "practical": "1 days",
+                    "total": "4 days"
                 },
                 {
-                    "label": "? A330 (RR Trent 700) B1.1/B2**",
-                    "theory": "28 days",
-                    "practical": "10 days",
-                    "total": "38 days"
+                    "label": "Difference from A330 (GE CF6) to A330 (RR Trent 700) B1.1/B2**",
+                    "theory": "3 days",
+                    "practical": "1 days",
+                    "total": "4 days"
                 },
-                { "label": "? B1.1 only", "theory": "26 days*", "practical": "10 days", "total": "36 days" },
-                { "label": "? B2 only", "theory": "22 days*", "practical": "10 days", "total": "32 days" }
+                {
+                    "label": "Difference from A330 (any engine) to A330 (GE CF6) B1.1/B2**",
+                    "theory": "3 days",
+                    "practical": "1 days",
+                    "total": "4 days"
+                }
             ],
-            "selfStudyNote": "* Up to 30 hours self-study included",
+            "selfStudyNote": "* Up to 26 hours self-study included",
             "combineNote": "** Different options can be combined to create a custom course package. Contact us for details."
         },
         {
@@ -471,7 +475,7 @@
             "subtitle": "(RR Trent 7000)",
             "category": "B1.1 & B2 & differences",
             "description": "Covering the new-engine option A330 variant with the RR Trent 7000 powerplant, offered as a differences course from the A330ceo variants.",
-            "image": "/assets/img/ac/A330neo.jpg",
+            "image": "/assets/img/ac/v2/A330neo.jpg",
             "href": "/courses/incoming-courses/a330-neo",
             "slug": "a330-neo",
             "engines": "RR Trent 7000",
@@ -495,11 +499,222 @@
         }
     ],
 
-    "news": [
-
-        
+    "onlineTrainings": [
+        {
+            "id": 1,
+            "title": "Safety Training",
+            "subtitle": "(incl. Human Factors)",
+            "category": "Online Training",
+            "duration": "2 days",
+            "delivery": "Online Self-study / Classroom / Virtual Classroom / Blended",
+            "audience": "Aircraft maintenance and compliance monitoring staff",
+            "description": "Provides the essential knowledge and awareness required by EASA Part-145 and Part-CAMO guidance on safety and human factors. Builds a strong foundation in understanding how human performance, organisational culture, and effective safety management contribute to safe and compliant aircraft maintenance operations.",
+            "topics": [
+                "Introduction to safety management and human factors",
+                "Safety risk management",
+                "Organisational factors and safety culture",
+                "Human error, performance and limitations",
+                "Environmental influences and procedures",
+                "Communication, teamwork, professionalism",
+                "The Dirty Dozen",
+                "Organisation's safety programme"
+            ],
+            "slug": "safety-training",
+            "href": "/courses/online-trainings/safety-training"
+        },
+        {
+            "id": 2,
+            "title": "Electrical Wiring Interconnection System",
+            "subtitle": "(EWIS — AMC 20-22)",
+            "category": "Online Training",
+            "duration": "1 day (TG 1 & 2); variations for other groups",
+            "delivery": "Classroom / Virtual Classroom / Blended",
+            "audience": "Aircraft maintenance and compliance monitoring staff",
+            "description": "Provides knowledge and awareness required by EASA AMC 20-22 on Electrical Wiring Interconnection Systems. Addresses risks associated with wiring degradation, ensures safe practices in inspection and maintenance, and promotes compliance to reduce the risk of electrical failures, arcing, and wiring-related incidents.",
+            "topics": [
+                "Safe handling and inspection of aircraft wiring systems",
+                "Tools and troubleshooting procedures",
+                "Wiring practices documentation",
+                "Contamination control and housekeeping",
+                "Wire types and damage criteria",
+                "Connector types and repair methods",
+                "Bonding and grounding",
+                "Human factors in inspection"
+            ],
+            "slug": "ewis",
+            "href": "/courses/online-trainings/ewis"
+        },
+        {
+            "id": 3,
+            "title": "Fuel Tank Safety",
+            "subtitle": "",
+            "category": "Online Training",
+            "duration": "1 day (8 hours)",
+            "delivery": "Classroom / Virtual Classroom / Blended",
+            "audience": "Aircraft maintenance and CAMO staff",
+            "description": "Provides a clear understanding of the risks associated with aircraft fuel tanks and the preventive measures required to ensure compliance with EASA fuel tank safety requirements. Equips staff with the knowledge to identify hazards, prevent ignition sources, and apply best practices when working on or around fuel systems.",
+            "topics": [
+                "Introduction and historical background of fuel tank safety",
+                "Fuel tank related risks",
+                "Ignition source prevention",
+                "Hazard awareness during fuel system maintenance",
+                "Flammability reduction systems",
+                "Lessons learned from past incidents"
+            ],
+            "slug": "fuel-tank-safety",
+            "href": "/courses/online-trainings/fuel-tank-safety"
+        },
+        {
+            "id": 4,
+            "title": "EASA Part-M & Part-CAMO Essentials",
+            "subtitle": "",
+            "category": "Online Training",
+            "duration": "1 day (or equivalent self-study)",
+            "delivery": "Classroom / Virtual Classroom / Blended",
+            "audience": "Aircraft maintenance and compliance monitoring staff",
+            "description": "Provides a comprehensive overview of continuing airworthiness management under EASA Part-M and Part-CAMO. Designed both for newcomers seeking a structured introduction and for experienced staff wishing to refresh and update their knowledge of the key responsibilities, processes, and regulatory requirements.",
+            "topics": [
+                "EASA Regulatory Framework — role of EASA, Basic Regulation, implementing rules",
+                "Part-M Subparts — applicability, responsibilities, continuing airworthiness management",
+                "Airworthiness review process",
+                "Part-CAMO — scope, privileges, obligations, management system",
+                "Safety management and compliance monitoring",
+                "Interfaces with Part-145",
+                "Practical application and case studies"
+            ],
+            "slug": "easa-part-m-camo",
+            "href": "/courses/online-trainings/easa-part-m-camo"
+        },
+        {
+            "id": 5,
+            "title": "Receiving Inspections",
+            "subtitle": "",
+            "category": "Online Training",
+            "duration": "1 day",
+            "delivery": "Classroom / Virtual Classroom / Blended",
+            "audience": "Part-145, CAMO, or Quality roles staff",
+            "description": "Designed for staff engaged in the handling, inspection, and management of aircraft components within Part-145, CAMO, or Quality roles. Provides the knowledge and skills needed to perform effective receiving inspections and maintain regulatory compliance.",
+            "topics": [
+                "Regulatory framework",
+                "Receiving inspection procedures",
+                "Traceability and life-limited parts",
+                "Suspect and recovered parts",
+                "Stores setup and management",
+                "Inspection techniques and inspector competence",
+                "Airworthiness directives and technical services",
+                "TSO/ETSO requirements and ESDS handling"
+            ],
+            "slug": "receiving-inspections",
+            "href": "/courses/online-trainings/receiving-inspections"
+        },
+        {
+            "id": 6,
+            "title": "Train the Trainer",
+            "subtitle": "(for OJT mentors and assessors)",
+            "category": "Online Training",
+            "duration": "1 day",
+            "delivery": "Classroom / Virtual Classroom / Blended",
+            "audience": "Experienced maintenance staff taking on OJT mentor/assessor roles",
+            "description": "Prepares experienced maintenance staff to take on the role of On-the-Job Training (OJT) mentors and assessors within an approved maintenance environment. Participants will develop the skills and confidence needed to guide trainees effectively, perform fair and consistent assessments, and ensure compliance with regulatory and organisational standards.",
+            "topics": [
+                "Introduction to On-the-Job Training (OJT)",
+                "The role of the mentor",
+                "The role of the assessor",
+                "Aircraft safe release to maintenance and documentation",
+                "Final quiz and wrap-up discussion"
+            ],
+            "slug": "train-the-trainer",
+            "href": "/courses/online-trainings/train-the-trainer"
+        },
+        {
+            "id": 7,
+            "title": "Compliance Monitoring & Auditing",
+            "subtitle": "",
+            "category": "Online Training",
+            "duration": "2 days",
+            "delivery": "Classroom / Virtual Classroom / Blended",
+            "audience": "Compliance monitoring staff and aviation authority inspectors",
+            "description": "Designed for compliance monitoring staff and national aviation authority inspectors involved in quality and compliance oversight. Provides the knowledge and practical skills needed to plan, conduct, and manage effective internal and external audits in accordance with EASA, ICAO, and ISO 19011:2018 standards.",
+            "topics": [
+                "Audit principles and terminology",
+                "Regulatory requirements (ICAO, EASA, FAA, Transport Canada)",
+                "Audit programme management",
+                "Audit methods, techniques and evidence collection",
+                "Conducting audits and reporting",
+                "Auditor competence and evaluation",
+                "Practical audit simulation"
+            ],
+            "slug": "compliance-monitoring-auditing",
+            "href": "/courses/online-trainings/compliance-monitoring-auditing"
+        },
+        {
+            "id": 8,
+            "title": "Safety Investigation",
+            "subtitle": "",
+            "category": "Online Training",
+            "duration": "2 days",
+            "delivery": "Classroom / Virtual Classroom / Blended",
+            "audience": "Safety, compliance, and maintenance personnel",
+            "description": "Designed for safety, compliance, and maintenance personnel involved in event reporting, occurrence investigation, or safety management functions. Provides the essential knowledge and practical tools to conduct effective internal safety investigations in line with EASA Part-145, Part-CAMO, and ICAO Annex 13 principles.",
+            "topics": [
+                "Purpose and scope of investigations",
+                "Regulatory framework (EASA and ICAO)",
+                "Investigation process and techniques",
+                "Human and organisational factors",
+                "Evidence collection and interviewing",
+                "Root cause analysis methods",
+                "Corrective and preventive actions",
+                "Reporting requirements and case studies"
+            ],
+            "slug": "safety-investigation",
+            "href": "/courses/online-trainings/safety-investigation"
+        },
+        {
+            "id": 9,
+            "title": "Root Cause Analysis",
+            "subtitle": "",
+            "category": "Online Training",
+            "duration": "1 day",
+            "delivery": "Classroom / Virtual Classroom / Blended",
+            "audience": "Compliance, quality, and safety personnel",
+            "description": "Designed for compliance, quality, and safety personnel responsible for identifying and addressing the underlying causes of non-conformities, incidents, and audit findings. Provides the knowledge and tools to perform systematic root cause analyses and develop effective corrective actions in accordance with EASA, ICAO, FAA, and IATA guidance.",
+            "topics": [
+                "Problem definition and data collection",
+                "Analytical tools (flowcharts, Pareto charts, histograms)",
+                "Root cause identification techniques",
+                "Selection of appropriate RCA tools",
+                "Regulatory expectations",
+                "Corrective and preventive action plans",
+                "IOSA corrective action records and documentation"
+            ],
+            "slug": "root-cause-analysis",
+            "href": "/courses/online-trainings/root-cause-analysis"
+        },
+        {
+            "id": 10,
+            "title": "Safety and Quality Management Processes",
+            "subtitle": "",
+            "category": "Online Training",
+            "duration": "1 day",
+            "delivery": "Classroom / Virtual Classroom / Blended",
+            "audience": "Management, safety, and compliance monitoring staff",
+            "description": "Designed for management, safety, quality, and compliance monitoring personnel seeking a deeper understanding of how safety and quality management systems interact within an aviation organisation. Provides the knowledge and practical insight needed to develop, implement, and maintain effective SMS and QMS in accordance with EASA Part-145 and Part-CAMO requirements.",
+            "topics": [
+                "SMS and QMS principles and objectives",
+                "Regulatory framework and responsibilities",
+                "Hazard identification and risk management",
+                "Compliance monitoring and performance measurement",
+                "Auditing and safety performance indicators",
+                "Management of change",
+                "Occurrence investigation links and reporting systems"
+            ],
+            "slug": "safety-quality-management",
+            "href": "/courses/online-trainings/safety-quality-management"
+        }
     ],
-    
+
+    "news": [],
+
     "_backUpNewsItem": [
         {
             "id": 1,
