@@ -1,0 +1,5 @@
+Options -MultiViews
+DirectoryIndex index.html
+RewriteEngine On
+
+ErrorDocument 404 /404.html

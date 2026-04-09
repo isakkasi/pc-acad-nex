@@ -11,19 +11,22 @@ export function generateStaticParams() {
         .map((course) => ({ slug: course.slug }));
 }
 
-const page = ({ params }) => {
-    const training = content.incomingCourses.find((c) => c.slug === params.slug);
+const page = async ({ params }) => {
+    const { slug } = await params;
+    const training = content.incomingCourses.find((c) => c.slug === slug);
 
     if (!training) notFound();
+
+    const pageTitle = `${training.title} ${training.subtitle ?? ""}`.trim();
 
     return (
         <NextLayout>
             <Breadcrumb
-                pageTitle={`${training.title} ${training.subtitle ?? ""}`.trim()}
+                pageTitle={pageTitle}
                 crumbs={[
                     { label: "Courses", href: "/courses" },
                     { label: "Incoming Courses", href: "/courses/incoming-courses" },
-                    { label: `${training.title} ${training.subtitle ?? ""}`.trim() },
+                    { label: pageTitle },
                 ]}
             />
             <IncomingTrainingDetails training={training} />

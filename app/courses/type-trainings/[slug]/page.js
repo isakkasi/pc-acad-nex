@@ -10,8 +10,9 @@ export function generateStaticParams() {
         .map((course) => ({ slug: course.slug }));
 }
 
-const page = ({ params }) => {
-    const training = content.typeTrainings.find((c) => c.slug === params.slug);
+const page = async ({ params }) => {
+    const { slug } = await params;
+    const training = content.typeTrainings.find((c) => c.slug === slug);
 
     if (!training) notFound();
 
