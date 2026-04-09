@@ -1,6 +1,6 @@
 import FunFactCounter from "@/components/FunFactCounter";
 import Home from "@/components/home/Home";
-import News from "@/components/home/News";
+import News from "@/components/news/News";
 import Testimonial from "@/components/home/Testimonial";
 import Pricing from "@/components/home/Pricing";
 import NextLayout from "@/layouts/NextLayout";

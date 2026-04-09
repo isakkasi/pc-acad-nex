@@ -26,9 +26,9 @@ const News = () => {
                   <div className="news-content">
                     <p>{item.date}</p>
                     <h4>
-                      <Link href={item.href}>{item.title}</Link>
+                      <Link href={item.href || `/news/${item.slug}`}>{item.title}</Link>
                     </h4>
-                    <Link className="link-btn" href={item.href}>
+                    <Link className="link-btn" href={item.href || `/news/${item.slug}`}>
                       Read More
                       <i className="far fa-arrow-right" />
                     </Link>

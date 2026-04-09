@@ -5,7 +5,7 @@ import { Fragment } from "react";
 import Pricing from "./Pricing";
 import About from "./About";
 import CtaVideo from "./CtaVideo";
-import News from "./News";
+import News from "../news/News";
 
 const Home = () => {
     return (
