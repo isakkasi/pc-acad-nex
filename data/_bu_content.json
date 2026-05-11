@@ -1,0 +1,146 @@
+{
+    "incomingCourses": [
+        {
+            "id": 1,
+            "title": "Airbus A320 series",
+            "subtitle": "(CFM56, V2500)",
+            "category": "B1.1 & B2",
+            "description": "Step forward in your career with Airbus A320 Type Training. Designed for aircraft maintenance professionals applying for an EASA Part-66 license, covering both CFM56 and V2500 engine variants with full theoretical and practical training.",
+            "image": "/assets/img/ac/v2/A320ceo.jpg",
+            "href": "/courses/incoming-courses/a320-ceo",
+            "slug": "a320-ceo",
+            "engines": "CFM56, V2500",
+            "dates": "08-June-2026",
+            "time": "17:00 EEST",
+            "method": "Online (Zoom)",
+            "locationTheory": "Online (Zoom)",
+            "locationPractical": "TBD",
+            "approval": "EASA Part-147",
+            "requestFormLink": "https://docs.google.com/forms/d/1WTYsdzBE-BvQwoiKDL58z_s26oikUfVWYLCqSc_3G3Y/edit?pli=1",
+            "price": "on request",
+            "options": [
+                { "label": "A320 (CFM56) B1.1/B2", "theory": "28 days*", "practical": "10 days", "total": "38 days" },
+                { "label": "A320 (V2500) B1.1/B2", "theory": "28 days*", "practical": "10 days", "total": "38 days" },
+                { "label": "B1.1 only", "theory": "26 days*", "practical": "10 days", "total": "36 days" },
+                { "label": "B2 only", "theory": "22 days*", "practical": "10 days", "total": "32 days" },
+                { "label": "Conversion B1.1 → B2", "theory": "2 days", "practical": "1 day", "total": "3 days" },
+                { "label": "Conversion B2 → B1.1", "theory": "9 days", "practical": "2 days", "total": "11 days" },
+                { "label": "Differences (CFM56 ↔ V2500)", "theory": "3 days", "practical": "1 day", "total": "4 days" }
+            ],
+            "selfStudyNote": true,
+            "subName": "Description for Airbus A320 (CFM56) Type Training",
+            "name": "Airbus A320ceo series Type Training"
+        },
+        {
+            "id": 2,
+            "title": "Airbus A320neo series",
+            "subtitle": "(CFM LEAP, PW1100G)",
+            "category": "B1.1 & B2",
+            "description": "Step forward in your career with Airbus A320neo Type Training. Covering the new-engine option variants with CFM LEAP and PW1100G powerplants, including differences courses from CFM56/V2500 variants.",
+            "image": "/assets/img/ac/v2/A320neo.jpg",
+            "href": "/courses/incoming-courses/a320-neo",
+            "slug": "a320-neo",
+            "engines": "CFM LEAP, PW1100G",
+            "dates": "22-July-2026",
+            "time": "17:00 EEST",
+            "method": "Online (Zoom)",
+            "locationTheory": "Online (Zoom)",
+            "locationPractical": "TBD",
+            "approval": "EASA Part-147",
+            "requestFormLink": "https://docs.google.com/forms/d/1WTYsdzBE-BvQwoiKDL58z_s26oikUfVWYLCqSc_3G3Y/edit?pli=1",
+            "price": "on request",
+            "options": [
+                {
+                    "label": "Differences: (CFM56/V2500/PW1100G) → CFM LEAP, Cat B1.1/B2",
+                    "theory": "3 days",
+                    "practical": "1 day",
+                    "total": "4 days"
+                },
+                {
+                    "label": "Differences: (CFM56/V2500/CFM LEAP) → PW1100G, Cat B1.1/B2",
+                    "theory": "3 days",
+                    "practical": "1 day",
+                    "total": "4 days"
+                }
+            ],
+            "selfStudyNote": false,
+            "subName": "Description for Airbus A320neo (CFM LEAP, PW1100G) Type Training",
+            "name": "Airbus A320neo series Type Training"
+        },
+        {
+            "id": 3,
+            "title": "Airbus A330 differences from A320 series",
+            "subtitle": "(GE CF6, PW4000, RR Trent 700)",
+            "category": "B1.1 & B2",
+            "description": "Step forward in your career with Airbus A330 Type Training. Covering the classic-engine variants with GE CF6, PW4000, and RR Trent 700 powerplants, plus cross-variant differences courses.",
+            "image": "/assets/img/ac/v2/A330ceo.jpg",
+            "href": "/courses/incoming-courses/a330-ceo",
+            "slug": "a330-ceo",
+            "engines": "GE CF6, PW4000, RR Trent 700",
+            "dates": "06-April-2026",
+            "time": "17:00 EEST",
+            "method": "Online (Zoom)",
+            "locationTheory": "Online (Zoom)",
+            "locationPractical": "TBD",
+            "approval": "EASA Part-147",
+            "requestFormLink": "https://forms.gle/8igFm7Jq9kG6B8uYA",
+            "price": "on request",
+            "options": [
+                {
+                    "label": "Difference from A320 (any engine) to A330 (GE CF6) B1.1/B2",
+                    "theory": "15 days*",
+                    "practical": "3 days",
+                    "total": "18 days"
+                },
+                {
+                    "label": "Difference from A330 (GE CF6) to A330 (PW4000) B1.1/B2**",
+                    "theory": "3 days",
+                    "practical": "1 days",
+                    "total": "4 days"
+                },
+                {
+                    "label": "Difference from A330 (GE CF6) to A330 (RR Trent 700) B1.1/B2**",
+                    "theory": "3 days",
+                    "practical": "1 days",
+                    "total": "4 days"
+                },
+                {
+                    "label": "Difference from A330 (any engine) to A330 (GE CF6) B1.1/B2**",
+                    "theory": "3 days",
+                    "practical": "1 days",
+                    "total": "4 days"
+                }
+            ],
+            "selfStudyNote": "* Up to 26 hours self-study included",
+            "combineNote": "** Different options can be combined to create a custom course package. Contact us for details."
+        },
+        {
+            "id": 4,
+            "title": "Airbus A330neo series",
+            "subtitle": "(RR Trent 7000)",
+            "category": "B1.1 & B2 & differences",
+            "description": "Covering the new-engine option A330 variant with the RR Trent 7000 powerplant, offered as a differences course from the A330ceo variants.",
+            "image": "/assets/img/ac/v2/A330neo.jpg",
+            "href": "/courses/incoming-courses/a330-neo",
+            "slug": "a330-neo",
+            "engines": "RR Trent 7000",
+            "selfStudyNote": false,
+            "dates": "TBD",
+            "time": "TBD",
+            "method": "Classroom / Virtual Classroom / Blended",
+            "locationTheory": "Online (Zoom)",
+            "locationPractical": "TBD",
+            "approval": "EASA Part-147",
+            "requestFormLink": "https://forms.gle/8igFm7Jq9kG6B8uYA",
+            "price": "on request",
+            "options": [
+                {
+                    "label": "Differences A330 ↔ (RR Trent 7000)",
+                    "theory": "4 days",
+                    "practical": "1 day",
+                    "total": "5 days"
+                }
+            ]
+        }
+    ]
+}

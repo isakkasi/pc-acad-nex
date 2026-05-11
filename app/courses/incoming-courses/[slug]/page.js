@@ -25,7 +25,7 @@ const page = async ({ params }) => {
                 pageTitle={pageTitle}
                 crumbs={[
                     { label: "Courses", href: "/courses" },
-                    { label: "Incoming Courses", href: "/courses/incoming-courses" },
+                    { label: "Upcoming Courses", href: "/courses/incoming-courses" },
                     { label: pageTitle },
                 ]}
             />

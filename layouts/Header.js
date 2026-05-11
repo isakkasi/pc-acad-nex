@@ -20,7 +20,7 @@ const Header = ({ single }) => {
             href: "/courses",
             title: "Courses",
             submenus: [
-                { id: "a", href: "/courses/incoming-courses", title: "Incoming Courses" },
+                { id: "a", href: "/courses/incoming-courses", title: "Upcoming Courses" },
                 { id: "b", href: "/courses/type-trainings", title: "Type Trainings" },
                 {
                     id: "c",

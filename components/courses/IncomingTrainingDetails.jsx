@@ -25,7 +25,7 @@ const IncomingTrainingDetails = ({ training }) => {
                                         fontWeight: 600,
                                     }}
                                 >
-                                    Incoming Course
+                                    Upcoming Course
                                 </p>
                                 <h2 className="mt-2">
                                     {training.title}
@@ -168,7 +168,7 @@ const IncomingTrainingDetails = ({ training }) => {
                                 Get in touch <i className="far fa-arrow-right" />
                             </Link>
                             <Link href="/courses/incoming-courses" className="theme-btn hover-white">
-                                All incoming courses <i className="far fa-arrow-right" />
+                                All upcoming courses <i className="far fa-arrow-right" />
                             </Link>
                         </div>
                     </div>

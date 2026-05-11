@@ -34,7 +34,7 @@ const Home = () => {
                                         className="btn-link wow fadeInUp"
                                         data-wow-delay=".6s"
                                     >
-                                        View Incoming Courses <i className="far fa-arrow-right" />
+                                        View Upcoming Courses <i className="far fa-arrow-right" />
                                     </Link>
                                 </div>
                                 {/* <div
